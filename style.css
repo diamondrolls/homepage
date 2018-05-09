@@ -10,11 +10,11 @@ body
     }
 ul li {
      float:left;
-    width:200px;
-        height:40px;
+    width:150px;
+        height:150px;
     background-color:Purple;
     opacity:.8;
-    line-height: 40px;
+    line-height: 150px;
     text-align:center;
     font-size:20px;
     font-family: ariel;
