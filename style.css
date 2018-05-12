@@ -1,47 +1,48 @@
 .rotating-box{
-width: 400px;
+    width: 400px;
     height:400px;
     margin: 10px auto;
     perspective: 800px;
 }
 .single-rb{
-width: 400px;
+    width: 400px;
     animation:rotate 15s linear infinite;
     transform-style:preserve-3d;
     margin-top: 120px;
 }
 .single-rb img{
-height=400px
-    width=400px
+    height: 400px;
+    width: 400px;
 }
 .single-rb div{
-position: absolute;
-    height=400px
-    width=400px
+    position: absolute;
+    height: 400px;
+    width: 400px;
 }
 .front-side{
     transform: translateZ(200px);
 }
 .back-side{
-transform: rotateY(180deg) translateZ(200px);
+    transform: rotateY(180deg) 
+    translateZ(200px);
 }
 .left-side{
-transform:rotateY(-90deg)
+    transform:rotateY(-90deg)
     translateX(-200px);
     transform-origin:left;
 }
 .right-side{
-transform:rotateY(90deg)
+    transform:rotateY(90deg)
     translateX(200px);
     transform-origin:right;
 }
 .top-side{
-transform:rotateX(-90deg)
+    transform:rotateX(-90deg)
     translateY(-200px);
     transform-origin:top;
 }
 .bottom-side{
-transform:rotateX(90deg)
+    transform:rotateX(90deg)
     translateY(200px);
     transform-origin:bottom;
 }
