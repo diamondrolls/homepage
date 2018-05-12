@@ -1,43 +1,67 @@
-html {
+.rotating-box{
+width: 400px;
+    height:400px;
+    margin: 10px auto;
+    perspective: 800px;
 }
-body 
+.single-rb{
+width: 400px;
+    animation:rotate 15s linear infinite;
+    transform-style:preserve-3d;
+    margin-top: 120px;
+}
+.single-rb img{
+height=400px
+    width=400px
+}
+.single-rb div{
+position: absolute;
+    height=400px
+    width=400px
+}
+.front-side{
+    transform: translateZ(200px);
+}
+.back-side{
+transform: rotateY(180deg) translateZ(200px);
+}
+.left-side{
+transform:rotateY(-90deg)
+    translateX(-200px);
+    transform-origin:left;
+}
+.right-side{
+transform:rotateY(90deg)
+    translateX(200px);
+    transform-origin:right;
+}
+.top-side{
+transform:rotateX(-90deg)
+    translateY(-200px);
+    transform-origin:top;
+}
+.bottom-side{
+transform:rotateX(90deg)
+    translateY(200px);
+    transform-origin:bottom;
+}
+@keyframes rotate{
+    0%{transform:rotateY(0%);}
+    100%{transform:rotateY(360deg);}
+}
 
-    ul {
-       margin:0px;
-       padding:0px;
-       list-style: none;
-    }
-ul li {
-     float:left;
-    width:150px;
-        height:50px;
-    background-color:Purple;
-    opacity:.8;
-    line-height: 50px;
-    text-align:center;
-    font-size:20px;
-    font-family: ariel;
-    margin-right: 7px;
-    }
-ul li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-ul li a:hover {
-    background-color:aqua; 
-    }
-ul li ul li {
-    display: none;
-}
-ul li:hover ul li {
-    display: block;
-}
 
-{
-width: 100%;
-height: 100%;
-padding: 0;
-margin: 0px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
