@@ -76,7 +76,7 @@ animation-delay: 2s;
     background-positon: center;       
 }
 
-slide: nth-child (3){
+slide: nth-child (3) {
 animation-delay:  5s;
     background img: url (3jpg);
     background-size: cover;
@@ -104,7 +104,7 @@ slide p {
     display: inline-block;
     width: 100%;
     margin-top: 340px;
-    color: #fff;
+    color: none;
 }
 
 @keyframes slide {
