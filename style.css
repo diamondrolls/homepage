@@ -8,7 +8,7 @@ body
        list-style: carousel;
     }
 ul li {
-     float:left;
+     float:none;
     width:150px;
         height:50px;
     background-color:Purple;
