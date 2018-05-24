@@ -40,11 +40,12 @@ height: 100%;
 padding: 0;
 margin: 0px;
 }
+
 #wholepage{
-    width:100%;
+    width:900px;
         height:100%;
-        padding:0;
-        margin:0px;
+        margin-left:auto;
+        margin-right:auto;
 }
 
 
