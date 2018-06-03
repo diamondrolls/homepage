@@ -49,9 +49,9 @@ padding-bottom:0px;
         margin-right:auto;
 }
 
-maincontent{
+#maincontent{
     width : 700px;
-    float: left;
+    float: center;
 }
 
 
