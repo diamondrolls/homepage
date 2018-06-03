@@ -49,20 +49,14 @@ padding-bottom:0px;
         margin-right:auto;
 }
 
-#content_right {
-background: url (https://goo.gl/images/mtunii)repeat-y top left;
-    padding:0 20px;
-    width:180px;
-    margin-left:-100%;
-    left:220px;
-}
-
-#content_left {
-background: url (https://goo.gl/images/mtunii)repeat-y top right;
-    padding:0 20px;
-    width:180px;
-    margin-right:-100%;
-    right:220px;
+#left-sidebar{
+    width: 150px;
+    float:left;
+    
 }
 
 
+#right-sidebar{
+    width:150px;
+    float:right;
+}
