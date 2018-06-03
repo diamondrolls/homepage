@@ -56,20 +56,20 @@ padding-bottom:0px;
 
 
 #left-sidebar{
-    width: 140px;
-    height:100%;
+    width: 100%;
+   
     float:left;
     
 }
 
 
 #right-sidebar{
-    width:140px;
-    height:100%;
+    width:100%;
+    
     float:right;
 }
 
 #centeredimages {
     width: 140;
-marfgin: 0px auto;
+margin: 0px auto;
 }
