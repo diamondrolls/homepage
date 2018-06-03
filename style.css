@@ -57,6 +57,7 @@ padding-bottom:0px;
 
 #left-sidebar{
     width: 140px;
+    height:100%;
     float:left;
     
 }
@@ -64,10 +65,11 @@ padding-bottom:0px;
 
 #right-sidebar{
     width:140px;
+    height:100%;
     float:right;
 }
 
-#centered images {
+#centeredimages {
     width: 140;
 marfgin: 0px auto;
 }
