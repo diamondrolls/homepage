@@ -61,3 +61,7 @@ padding-bottom:0px;
     float:right;
 }
 
+#centered images {
+    width: 140;
+marfgin: 0px auto;
+}
