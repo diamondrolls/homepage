@@ -49,6 +49,12 @@ padding-bottom:0px;
         margin-right:auto;
 }
 
+maincontent{
+    width : 700px;
+    float: left;
+}
+
+
 #left-sidebar{
     width: 140px;
     float:left;
