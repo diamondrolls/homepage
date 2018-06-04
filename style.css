@@ -69,3 +69,11 @@ padding-bottom:0px;
 h1 {
        font-family: ar berkley;
       }
+
+footer{
+backgroung-image:url(sthomp18.github.io/images/gold-gld-ipsize-768x384.jpg);
+    postion: relative;
+    background-image:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
