@@ -105,8 +105,8 @@ body {
   transform: scale(0.8, 0.8);
   -webkit-box-reflect: below 170px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, transparent), to(rgba(250, 250, 250, 0.1))); }
 
-.banner-image {
-    opacity:.8;
+.lit-image {
+    opacity:.5;
 }
 
 .cube {
