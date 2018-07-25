@@ -205,7 +205,7 @@ body {
   transform: rotateY(-90deg) translateZ(100px);
   outline: 1px solid transparent; }
 
-.cube > div:nth-child(7) {
+.cube > div:nth-child(6) {
   -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(100px);
   -moz-transform: rotateX(-90deg) rotate(180deg) translateZ(100px);
   -ms-transform: rotateX(-90deg) rotate(180deg) translateZ(100px);
