@@ -24,7 +24,7 @@ ul li {
     }
 ul li a {
     text-decoration: none;
-    color: black;
+    color: red;
     display: block;
 }
 ul li a:hover {
