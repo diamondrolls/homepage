@@ -1,25 +1,6 @@
 html {
 }
 
- img           { 
-                          display:block; margin-left: 
-                              auto; margin-right: auto;
-                                }
-                    p          {
-                               font-size: 10px;
-                               color: black;
-                                }
-                    h1        {
-                                font-family: ar berkley;
-                              }
-                    
-                    body{       
-background-image: 
-         url('sthomp18.github.io/images/giphy (3).gif');
-                            
-
-                  }
-
     ul {
        margin:0px;
        padding:0px;
