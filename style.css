@@ -55,7 +55,7 @@ padding-bottom:0px;
 
 
 #left-sidebar{
-    width:90px;
+    width:200px;
    
     float:left;
     
@@ -63,7 +63,7 @@ padding-bottom:0px;
 
 
 #right-sidebar{
-    width:90px;
+    width:200px;
     
     float:right;
 }
