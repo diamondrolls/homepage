@@ -143,24 +143,7 @@ background-image:
 <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
 <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
        
-         <div class="chat">
-  <div class="chat-title">
-    <h1>Whats Up?</h1>
-    <h2>Write a cool comment</h2>
-    <figure class="avatar">
-      <img src="sthomp18.github.io/images/giphy (1).gif" /></figure>
-  </div>
-  <div class="messages">
-    <div class="messages-content"></div>
-  </div>
-  <div class="message-box">
-    <textarea type="text" class="message-input" placeholder="Type message..."></textarea>
-    <button type="submit" class="message-submit">Send</button>
-  </div>
-
-</div>
-<div class="bg"></div>
-         
+   
          <div align="right" style="border:5px solid red">
         <center><button>  <iframe width="560px" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/371298950&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                            <a href= 'https://www.instagram.com/baroqueboi/' target="_blank">
@@ -228,76 +211,7 @@ background-image:
          </div>
          <script>
                   
-               var $messages = $('.messages-content'),
-    d, h, m,
-    i = 0;
-
-$(window).load(function() {
-  $messages.mCustomScrollbar();
-  setTimeout(function() {
-    fakeMessage();
-  }, 100);
-});
-
-function updateScrollbar() {
-  $messages.mCustomScrollbar("update").mCustomScrollbar('scrollTo', 'bottom', {
-    scrollInertia: 10,
-    timeout: 0
-  });
-}
-
-function setDate(){
-  d = new Date()
-  if (m != d.getMinutes()) {
-    m = d.getMinutes();
-    $('<div class="timestamp">' + d.getHours() + ':' + m + '</div>').appendTo($('.message:last'));
-  }
-}
-
-function insertMessage() {
-  msg = $('.message-input').val();
-  if ($.trim(msg) == '') {
-    return false;
-  }
-  $('<div class="message message-personal">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
-  setDate();
-  $('.message-input').val(null);
-  updateScrollbar();
-  setTimeout(function() {
-    fakeMessage();
-  }, 1000 + (Math.random() * 20) * 100);
-}
-
-$('.message-submit').click(function() {
-  insertMessage();
-});
-
-$(window).on('keydown', function(e) {
-  if (e.which == 13) {
-    insertMessage();
-    return false;
-  }
-})
-
-
-
-function fakeMessage() {
-  if ($('.message-input').val() != '') {
-    return false;
-  }
-  $('<div class="message loading new"><figure class="avatar"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
-  updateScrollbar();
-
-  setTimeout(function() {
-    $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/156381/profile/profile-80.jpg" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
-    setDate();
-    updateScrollbar();
-    i++;
-  }, 1000 + (Math.random() * 20) * 100);
-
-}   
-                  
+                   
           var angle = 0;
 function galleryspin(sign) { 
 spinner = document.querySelector("#spinner");
