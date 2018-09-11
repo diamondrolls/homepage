@@ -231,23 +231,24 @@ object:hover {
 
 div#carousel { 
   perspective: 1200px; 
-  background: #100000; 
-  padding-top: 10%; 
+  background-image: url('http://thelistlove.files.wordpress.com/2014/03/26.jpg');
+  height:'500px'; 
+  padding-top: 50%; 
   font-size:0; 
-  margin-bottom: 3rem; 
+  margin-bottom: 1rem; 
   overflow: hidden; 
 }
 figure#spinner { 
   transform-style: preserve-3d; 
-  height: 300px; 
-  transform-origin: 50% 50% -500px; 
+    margin-top: -25rem;
+  transform-origin: 50% 30% -500px; 
   transition: 1s; 
 } 
 figure#spinner img { 
-  width: 30%; max-width: 425px; 
+  width: 20%; max-width: 425px; 
   position: absolute; left: 30%;
   transform-origin: 50% 50% -500px;
-  outline:0.7px ; 
+  outline:1px solid transparent; 
 }
 figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
 }
@@ -267,7 +268,6 @@ div#carousel ~ span {
   transition: 0.6s color; 
   position: relative; 
   margin-top: -6rem; 
-  border-bottom: none; 
+  border-bottom:0 ; 
   line-height: 0; }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
-
