@@ -270,3 +270,12 @@ div#carousel ~ span {
   border-bottom:0 ; 
   line-height: 0; }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
+
+div#banner { 
+  perspective: 1200px; 
+  height:'500px'; 
+  padding-top: 50%; 
+  font-size:0; 
+  margin-bottom: 1rem; 
+  overflow: hidden; 
+}
