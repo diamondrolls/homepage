@@ -271,7 +271,7 @@ div#carousel ~ span {
   line-height: 0; }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
-div#banner { 
+.banner> div { 
   perspective: 1200px; 
   height:'500px'; 
   padding-top: 50%; 
