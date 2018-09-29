@@ -249,15 +249,15 @@ figure#spinner img {
   transform-origin: 50% 50% -500px;
   outline:1px solid transparent; 
 }
-figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+figure#spinner iframe:nth-child(1) { transform:rotateY(0deg); 
 }
-figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
-figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
-figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
-figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
-figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
-figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
-figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+figure#spinner iframe:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner iframe:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner iframe:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner iframe:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner iframe:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner iframe:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner iframe:nth-child(8){ transform: rotateY(-315deg); }
 div#carousel ~ span { 
   color: #fff; 
   margin: 5%; 
