@@ -61,6 +61,12 @@ padding-bottom:0px;
     
 }
 
+div.bordercontrol {
+border-style: solid;
+border-color:red;
+ overflow: scroll;
+height:900px;
+width:600px;}
 
 #right-sidebar{
     width:150px;
