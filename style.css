@@ -65,8 +65,8 @@ div.bordercontrol {
 border-style: solid;
 border-color:red;
  overflow: scroll;
-height:900px;
-width:600px;}
+height:500px;
+    width:100%;}
 
 #right-sidebar{
     width:150px;
