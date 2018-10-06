@@ -125,105 +125,10 @@ background-color: #ffd8d8;
          
         <center> <a href="https://sthomp18.github.io/fitness.io/"> <button>  <img src="sthomp18.github.io/images/Fruit-PNG-File.png" width="960px"/> 
                  <h2>check out our fitness center</h2></button></a> </center>
-        
-         <div class="block">
-<div class="chat">
-  <div class="chat-title">
-    <h1>Diamondrolls</h1>
-    <h2>its LIT</h2>
-    <figure class="avatar">
-      <img src="https://media.giphy.com/media/3o6Ztii5zyvIqhoKQw/giphy.gif" /></figure>
-  </div>
-  <div class="messages">
-    <div class="messages-content"></div>
-  </div>
-  <div class="message-box">
-    <textarea type="text" class="message-input" placeholder="Type message..."></textarea>
-    <button type="submit" class="message-submit">chat</button>
-  </div>
-
-</div>
-<div class="bg"></div></div>
+      
          <script>
                   
-              var $messages = $('.messages-content'),
-    d, h, m,
-    i = 0;
-
-$(window).load(function() {
-  $messages.mCustomScrollbar();
-  setTimeout(function() {
-    fakeMessage();
-  }, 100);
-});
-
-function updateScrollbar() {
-  $messages.mCustomScrollbar("update").mCustomScrollbar('scrollTo', 'bottom', {
-    scrollInertia: 10,
-    timeout: 0
-  });
-}
-
-function setDate(){
-  d = new Date()
-  if (m != d.getMinutes()) {
-    m = d.getMinutes();
-    $('<div class="timestamp">' + d.getHours() + ':' + m + '</div>').appendTo($('.message:last'));
-  }
-}
-
-function insertMessage() {
-  msg = $('.message-input').val();
-  if ($.trim(msg) == '') {
-    return false;
-  }
-  $('<div class="message message-personal">' + msg + '</div>').appendTo($('.mCSB_container')).addClass('new');
-  setDate();
-  $('.message-input').val(null);
-  updateScrollbar();
-  setTimeout(function() {
-    fakeMessage();
-  }, 1000 + (Math.random() * 20) * 100);
-}
-
-$('.message-submit').click(function() {
-  insertMessage();
-});
-
-$(window).on('keydown', function(e) {
-  if (e.which == 13) {
-    insertMessage();
-    return false;
-  }
-})
-
-var Fake = [
-  'Hi there, welcome to diamondrolls, a place where finances and fitness are key',
-  'Nice to meet you',
-  'if you have anytouble roaming through the site please rotate the cube at the top of the page for navigation',
-  'Anyway I\'ve gotta go now',
-  'It was a pleasure chat with you',
-
-  'Bye',
-  ':)'
-]
-
-function fakeMessage() {
-  if ($('.message-input').val() != '') {
-    return false;
-  }
-  $('<div class="message loading new"><figure class="avatar"><img src="https://media.giphy.com/media/3o6Ztii5zyvIqhoKQw/giphy.gif" /></figure><span></span></div>').appendTo($('.mCSB_container'));
-  updateScrollbar();
-
-  setTimeout(function() {
-    $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="https://media.giphy.com/media/3o6Ztii5zyvIqhoKQw/giphy.gif" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
-    setDate();
-    updateScrollbar();
-    i++;
-  }, 1000 + (Math.random() * 20) * 100);
-
-}     
+       
           var angle = 0;
 function galleryspin(sign) { 
 spinner = document.querySelector("#spinner");
