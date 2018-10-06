@@ -472,12 +472,7 @@ Messages
         animation-delay: .15s;
       }
 
-      & span {
-        display: block;
-        font-size: 0;
-        width: 20px;
-        height: 10px;
-        position: relative;
+  
 
         &::before {
           @include ball;
