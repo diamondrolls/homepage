@@ -297,9 +297,9 @@ Mixins
 
 
 
-block {
+.block {
   height:700px;
-  width:100%;
+  width:900px;
 
   
   font-family: 'Open Sans', sans-serif;
@@ -308,9 +308,7 @@ block {
   overflow: hidden;
 }
 
-block {
-  width: 500px;
-  height: 500px;
+.block{
  
   z-index: 1;
 
