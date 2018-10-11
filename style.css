@@ -288,7 +288,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 slider {
   display: block;
   width:300px;
-  height:250px;
+  height:450px;
     background-color:#1f1f1f;
   overflow:hidden;
   position: absolute;
