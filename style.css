@@ -285,3 +285,58 @@ div#carousel ~ span {
   line-height: 0; }
 div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
+slider {
+  display: block;
+  width:300px;
+  height:250px;
+    background-color:#1f1f1f;
+  overflow:hidden;
+  position: absolute;
+}
+slider > * {
+  position:absolute;
+  display:block;
+  width:300px;
+  height:250px;
+  background:#1f1f1f;
+  animation: slide 12s infinite;
+  overflow: hidden;
+}
+slide:nth-child(1) {
+  left:0%;
+  animation-delay:-1s;
+  background-size:cover;
+  background-position:center;
+}
+slide:nth-child(2) {
+  animation-delay:2s;
+  background-size:cover;
+  background-position:center;
+}
+slide:nth-child(3) {
+  animation-delay:5s;
+  background-size:cover;
+  background-position:center;
+}
+slide:nth-child(4) {
+  
+  animation-delay:8s;
+  background-size:cover;
+  background-position:center;
+}
+
+slide img {
+  text-align: center;
+  display:inline-block;
+  width:100%;
+  margine-top:340px;
+  color:#fff;
+}
+@keyframes slide{
+  0% {left:100%; width:100%}
+  5% {left:0%;}
+  25% {left: 0%;}
+  30% {left: -100%; width: 100%;}
+  30.0001% { left: -100%; width: 0%;}
+  100% {left: 100%; width: 0%;}
+}
