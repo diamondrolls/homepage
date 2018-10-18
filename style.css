@@ -280,7 +280,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 slider {
   display: block;
   width:900px;
-  height:400px;
+  height:450px;
     background-color:#1f1f1f;
   overflow:hidden;
   position: absolute;
@@ -289,7 +289,7 @@ slider > * {
   position:absolute;
   display:block;
   width:900px;
-  height:400px;
+  height:450px;
   background:#1f1f1f;
   animation: slide 12s infinite;
   overflow: hidden;
