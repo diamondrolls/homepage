@@ -164,21 +164,37 @@ body{
 	border-style:outset;
 	border-color:red;
 	height:110px;
+	width:300px;
+  background-image:url('https://i.pinimg.com/564x/ec/65/dd/ec65dda4586c665a5addb1c3599bd7ae.jpg');
+  background-size:300px 110px;
+	}
 	}
 .border2{
 	border-style:outset;
 	border-color:red;
 	height:110px;
+	width:300px;
+  background-image:url('https://i.pinimg.com/564x/50/1c/6d/501c6de3927a44affc53be0f8933f3e3.jpg');
+  background-size:300px 110px;
+	}
 }
 .border3{
 	border-style:outset;
 	border-color:red;
 	height:110px;
+	width:300px;
+  background-image:url('https://i.pinimg.com/564x/2a/89/41/2a8941eba203ce419762c55a724b0106.jpg');
+  background-size:300px 110px;
+	}
 }
 .border4{
 	border-style:outset;
 	border-color:red;
 	height:110px;
+	width:300px;
+  background-image:url('https://i.pinimg.com/564x/f6/a8/10/f6a8106e0953dc99d7b0a37d9d478f0a.jpg');
+  background-size:300px 110px;
+	}
 }
 h2{
 	font-size:16px;
