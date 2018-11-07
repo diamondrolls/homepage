@@ -1,37 +1,11 @@
 html {
 }
 
-  
-
-
-#wrapper {
-  padding-top: 5%; }
-
-.viewport {
-  -webkit-perspective: 800px;
-  -moz-perspective: 800px;
-  -ms-perspective: 800px;
-  -o-perspective: 800px;
-  perspective: 800px;
-  -webkit-perspective-origin: 50% 200px;
-  -moz-perspective-origin: 50% 200px;
-  -ms-perspective-origin: 50% 200px;
-  -o-perspective-origin: 50% 200px;
-  perspective-origin: 50% 200px;
-  -webkit-transform: scale(0.8, 0.8);
-  -moz-transform: scale(0.8, 0.8);
-  -ms-transform: scale(0.8, 0.8);
-  -o-transform: scale(0.8, 0.8);
-  transform: scale(0.8, 0.8);
-  -webkit-box-reflect: below 170px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, transparent), to(rgba(250, 250, 250, 0.1))); }
-
 .awesomecontainer {
  height:500px;
  width:950px;
     background-image:url('sthomp18.github.io/images/giphy (2).gif');
  }
-body{
-	background-color:#ffd8d8;;
 }
 .bordercontrol{
 	width:300px;
@@ -106,8 +80,6 @@ Body
 *::after {
   box-sizing: border-box;
 }
-
-html,
 body {
   height: 100%;
 }
@@ -115,10 +87,9 @@ body {
 body {
   background: linear-gradient(135deg, #044f48, #2a7561);
   background-size: cover;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  
   line-height: 1.3;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .bg {
