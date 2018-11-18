@@ -6,10 +6,13 @@ body {
   background-repeat:no-repeat;
   background-size:100% 957px;
 }
-
-.bordercontrol{
-	width:300px;
-	
+#left-sidebar{
+  float:left;
+  width:500px;
+}
+#right-sidebar{
+  float:right;
+  width:500px;
 }
 .border1{
 	border-style:outset;
