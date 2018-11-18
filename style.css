@@ -8,12 +8,12 @@ body {
 }
 #left-sidebar{
   float:left;
-  width:500px;
+  width:400px;
 	padding-left:200px;
 }
 #right-sidebar{
   float:right;
-  width:500px;
+  width:400px;
 	padding-left:200px;
 }
 .border1{
