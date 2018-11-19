@@ -9,12 +9,12 @@ body {
 #left-sidebar{
   float:left;
   width:400px;
-	padding-left:200px;
+	padding-left:135px;
 }
 #right-sidebar{
   float:right;
   width:400px;
-	padding-left:200px;
+	
 }
 .border1{
 	border-style:outset;
