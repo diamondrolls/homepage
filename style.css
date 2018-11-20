@@ -51,6 +51,8 @@ body {
 .border5{
 	border-style:outset;
 	border-color:#E5E4E2;
+	width:101px; 
+	height:101px;
 
 	}
 h2{
