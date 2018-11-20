@@ -48,6 +48,11 @@ body {
   background-image:url('https://i.pinimg.com/564x/f6/a8/10/f6a8106e0953dc99d7b0a37d9d478f0a.jpg');
   background-size:300px 110px;
 	}
+.border5{
+	border-style:outset;
+	border-color:#E5E4E2;
+
+	}
 h2{
 	font-size:20px;
 	text-align:left;
