@@ -3,45 +3,45 @@ html {
 
 #left-sidebar{
   float:left;
-  width:300px;
+  width:500px;
 	padding-left:100px;
 }
 #right-sidebar{
   float:right;
-  width:350px;
+  width:450px;
 	
 }
 .border1{
 	border-style:outset;
 	border-color:#E5E4E2;
-	height:110px;
-	width:300px;
+	height:210px;
+	width:400px;
   background-image:url('https://i.pinimg.com/564x/5b/62/d0/5b62d0ea1f5d77408ec4cfdf02c0313b.jpg');
-  background-size:300px 110px;
+  background-size:400px 210px;
 	}
 .border2{
 	border-style:outset;
 	border-color:#E5E4E2;
-	height:110px;
-	width:300px;
+	height:210px;
+	width:400px;
   background-image:url('https://i.pinimg.com/564x/98/69/5f/98695f59119c181db4b975087881dcc4.jpg');
-  background-size:300px 110px;
+  background-size:400px 210px;
 	}
 .border3{
 	border-style:outset;
 	border-color:#E5E4E2;
-	height:110px;
-	width:300px;
+	height:210px;
+	width:400px;
   background-image:url('https://i.pinimg.com/564x/2a/89/41/2a8941eba203ce419762c55a724b0106.jpg');
-  background-size:300px 110px;
+  background-size:400px 210px;
 	}
 .border4{
 	border-style:outset;
 	border-color:#E5E4E2;
-	height:110px;
-	width:300px;
+	height:210px;
+	width:400px;
   background-image:url('https://i.pinimg.com/564x/f6/a8/10/f6a8106e0953dc99d7b0a37d9d478f0a.jpg');
-  background-size:300px 110px;
+  background-size:400px 210px;
 	}
 .border5{
 	border-style:outset;
