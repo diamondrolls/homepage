@@ -50,12 +50,9 @@ html {
 	height:101px;
 
 	}
-.border7{
+body{
 	 background-image:url('https://i.pinimg.com/originals/ee/84/77/ee8477eebafd8fe03dfd125c022cb252.gif');
-  background-repeat:no-repeat;
-     background-size:100% 100%;
-	height:100%;
-	width:100%;
+  
 }
 h2{
 	font-size:20px;
