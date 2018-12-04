@@ -48,8 +48,9 @@ html {
 	border-color:#white;
 	width:400px; 
 	height:500px;
-
-	}
+          background-image:url('https://i.pinimg.com/564x/53/95/03/5395030b318833c173edfb3452d28dae.jpg');
+	background-size:500px 400px;
+		  }
 body{
 	 background-image:url('https://i.pinimg.com/originals/82/fa/46/82fa4679c11b0089123441c1a189adb9.gif');
   background-repeat:no-repeat;
