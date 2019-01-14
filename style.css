@@ -75,6 +75,8 @@ h2{
 
 .neon:after
 {
+	top:0;
+	left:0;
 	content:attr(data-text);
 	position:absolute;
 	padding:0 0 20px;
@@ -86,6 +88,8 @@ h2{
 .neon:before
 {
 	content:" ";
+	top:0;
+	left:0;
 	position:absolute;
 	background:#fe3a80;
 	z-index:-3;
