@@ -62,3 +62,15 @@ h2{
 	text-align:left;
 	color:#white;
 }
+
+.neon
+{
+	translate:transform (-50%,-50%);
+	margin:0;
+	padding:0 20px;
+	font-size:6em;
+	color:#fff;
+	text-shadow:0 0 20px;
+}
+
+	
