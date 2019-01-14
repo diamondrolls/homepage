@@ -73,4 +73,22 @@ h2{
 	text-shadow:0 0 20px;
 }
 
-	
+.neon:after
+{
+	content:attr(data-text);
+	position:absolute;
+	padding:0 0 20px;
+	z-index:-1;
+	color:#ff005b;
+	filter:blur(15px);
+}
+
+.neon:before
+{
+	content:" ";
+	position:absolute;
+	background:#fe3a80;
+	z-index:-3;
+	opacity:.5;
+	filter:blur(40px);
+}
