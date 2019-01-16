@@ -44,14 +44,7 @@ html {
   background-size:400px 210px;
 	}
 .border5{
-	
-	width:500px; 
-	height:500px;
-          background-image:url('https://i.pinimg.com/originals/bd/6c/59/bd6c59a1bebe561cfe58f3cabbe80ced.gif');
-	background-size:500px 500px;
-		  }
-body{
-	 background-image:url('https://i.pinimg.com/originals/4d/de/f1/4ddef18732b35ebab7372e1fbb01b8ce.gif');
+          background-image:url('https://i.pinimg.com/originals/4d/de/f1/4ddef18732b35ebab7372e1fbb01b8ce.gif');
   background-repeat:no-repeat;
   background-size:cover;
 }
