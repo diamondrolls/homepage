@@ -8,11 +8,11 @@ body {
 #left-sidebar{
   float:left;
   width:430px;
-	padding-left:50px;
+	padding-left:10px;
 }
 #right-sidebar{
   float:right;
-  width:500px;
+  width:450px;
 	
 }
 .border1{
