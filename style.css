@@ -1,18 +1,14 @@
 html {
 }
-body {
- background-image:url('https://i.pinimg.com/originals/8a/21/c0/8a21c069f217aeded9101b119b2251d3.gif');
-  background-repeat:no-repeat;
-  background-size:cover;
-}
+
 #left-sidebar{
   float:left;
   width:430px;
-	padding-left:10px;
+	padding-left:50px;
 }
 #right-sidebar{
   float:right;
-  width:450px;
+  width:500px;
 	
 }
 .border1{
@@ -20,7 +16,7 @@ body {
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/originals/25/48/ec/2548ec715460ec257280dee190109201.jpg');
+  background-image:url('https://i.pinimg.com/564x/5b/62/d0/5b62d0ea1f5d77408ec4cfdf02c0313b.jpg');
   background-size:400px 210px;
 	}
 .border2{
@@ -28,7 +24,7 @@ body {
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/564x/04/3e/c7/043ec76bb56c0ce9ab09788fa5942002.jpg');
+  background-image:url('https://i.pinimg.com/564x/98/69/5f/98695f59119c181db4b975087881dcc4.jpg');
   background-size:400px 210px;
 	}
 .border3{
@@ -47,6 +43,18 @@ body {
   background-image:url('https://i.pinimg.com/564x/f6/a8/10/f6a8106e0953dc99d7b0a37d9d478f0a.jpg');
   background-size:400px 210px;
 	}
+.border5{
+	
+	width:500px; 
+	height:500px;
+          background-image:url('https://i.pinimg.com/originals/bd/6c/59/bd6c59a1bebe561cfe58f3cabbe80ced.gif');
+	background-size:500px 500px;
+		  }
+body{
+	 background-image:url('https://i.pinimg.com/originals/8a/21/c0/8a21c069f217aeded9101b119b2251d3.gif');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
 
 
 h2{
@@ -58,12 +66,13 @@ h2{
 .neon
 {
   position:absolute;
-  
+  top:10%;
+  left:35%;
 	translate:transform (-50%,-50%);
 	margin:0;
 	padding:0 20px;
 	font-size:6em;
-	color:#fff;
+	color:#34ccff;
 	text-shadow:0 0 20px;
 }
 
@@ -75,7 +84,7 @@ h2{
 	position:absolute;
 	padding:0 0 20px;
 	z-index:-1;
-	color:#ff005b;
+	color:#34ccff;
 	filter:blur(15px);
 }
 
@@ -85,7 +94,7 @@ h2{
 	top:0;
 	left:0;
 	position:absolute;
-	background:#fe3a80;
+	background:#34ccff;
 	z-index:-3;
 	opacity:.5;
 	filter:blur(40px);
