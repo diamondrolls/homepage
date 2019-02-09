@@ -11,12 +11,13 @@ html {
   width:500px;
 	
 }
+
 .border1{
 	border-style:outset;
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/originals/ed/7f/33/ed7f3376a543a8e997785448eae7f1a0.jpg');
+  background-image:url('https://i.pinimg.com/564x/82/47/c9/8247c9e12b73154408440b68015cbb1f.jpg');
   background-size:400px 210px;
 	}
 .border2{
@@ -24,7 +25,7 @@ html {
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/564x/82/47/c9/8247c9e12b73154408440b68015cbb1f.jpg');
+  background-image:url('https://i.pinimg.com/564x/f6/a8/10/f6a8106e0953dc99d7b0a37d9d478f0a.jpg');
   background-size:400px 210px;
 	}
 .border3{
@@ -40,7 +41,7 @@ html {
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/564x/f6/a8/10/f6a8106e0953dc99d7b0a37d9d478f0a.jpg');
+  background-image:url('https://i.pinimg.com/originals/ed/7f/33/ed7f3376a543a8e997785448eae7f1a0.jpg');
   background-size:400px 210px;
 	}
 .border5{
