@@ -11,6 +11,12 @@ html {
   width:500px;
 	
 }
+.membershiparea{
+width:450px;
+	display:flex;
+	background-color:rgba(5, 0, 255, 0.5);
+	
+}
 
 .finances1{
 	border-style:outset;
