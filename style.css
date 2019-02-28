@@ -1,6 +1,37 @@
 html { background-image:url('https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c53860572a1c29970ce14a8.gif');
 	
 }
+.containers{
+ position:absolute;
+  z-index:6;
+  background-image:url("https://i.pinimg.com/originals/ff/f0/95/fff095595082fc78413f8b9358696c82.png");
+  background-size:cover;
+  width:200px;
+  height:65px;
+  animation:moneytime 5s linear 1s infinite alternate;
+  -webkit-animation: moneytime 5s linear 1s infinite alternate;/* Safari 4.0 - 8.0 */
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes moneytime{
+  from{
+    left:10px;
+    
+  }
+  to{
+    left:85%;
+   
+  }
+}
+@keyframes moneytime{
+  from{
+    left:10px;
+    
+  }
+  to{
+    left:85%;
+  }
+}
+}
 
 #left-sidebar{
   float:left;
