@@ -91,9 +91,6 @@ width:360px;
   background-size:cover;
 	z-index:-5;
 		  }
-body{
-	
-}
 
 
 h2{
@@ -125,11 +122,10 @@ h2{
   -moz-box-shadow: 0 8px 6px -6px black;
   -o-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
-  z-index:-1;
+  
 }
-.form{
-  z-index:1;
-}
+
+
 .slide div{
   display:block;
   width:0;
