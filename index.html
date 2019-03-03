@@ -45,14 +45,25 @@
 			
       <br>
       <br>
-      <br>
-	  <br>
-      <br>
-      <br>
-	    <br>
-      <br>
-      <br>
-               <div class='membershiparea'>
+      <section class="slide">
+    <div>
+       <img src="https://i-h2.pinimg.com/564x/a8/7d/72/a87d7234af694dbdd270ef9e87e70f6e.jpg?b=t"width="160px" height="300px">
+    </div>
+    <div>
+       <img src="https://i.pinimg.com/564x/64/03/44/64034460e3949dafd7858ea4a79e087c.jpg?b=t"width="160px" height="300px"
+    </div>
+    <div>
+       <img src="https://i.pinimg.com/564x/9b/98/a1/9b98a1f2e00e23821c407b8bb22e11d5.jpg"width="160px" height="300px">
+    </div>
+    <div>
+       <img src="https://i.pinimg.com/564x/20/98/37/209837ed25919f9ad27705874d1aa348.jpg"width="160px" height="300px">
+    </div>
+    <div>
+       <img src="https://i.pinimg.com/564x/dd/f1/b4/ddf1b47d3b813dc5c4748e2fbc1d9eef.jpg"width="160px" height="300px">
+    </div>
+</section>
+
+        
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -71,7 +82,7 @@
 <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=UAGYHTHA6PUVJ">
 <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_SM.gif" BORDER="0">
 </A>
-	      </div>	       
+	     	       
     </div>
 	     
 		
@@ -91,6 +102,22 @@
   </div>
 
 </center>
+	<script>
+		var x = 0;
+var y = 0;
+
+var myVar=setInterval(function(){slides()},3000);
+
+function slides() {
+  document.getElementsByTagName("div")[y].style.width="0px";
+  document.getElementsByTagName("div")[x].style.width="100%";
+  y = x;
+  ++x;
+  if (x == 5) {
+     x = 0;
+  }
+}
+		</script>
           </body>
 <footer> 
          </footer>
