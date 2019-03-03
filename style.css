@@ -114,6 +114,31 @@ h2{
 	color:#34ccff;
 	text-shadow:0 0 20px;
 }
+.slide{
+  width: 160px;
+  
+  height: 300px;
+  overflow:hidden;
+  
+  margin: 30px auto;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  -o-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  z-index:-1;
+}
+.form{
+  z-index:1;
+}
+.slide div{
+  display:block;
+  width:0;
+  float: left;
+  -webkit-transition: all 0.75s;
+  -moz-transition: all 0.75s;
+  transition: all 0.75s;
+}
+
 
 .neon:after
 {
