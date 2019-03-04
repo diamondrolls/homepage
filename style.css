@@ -32,7 +32,25 @@ html { background-image:url('https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c5
   }
 }
 
-
+.slide{
+  width: 230px;
+  height: 350px;
+  overflow:hidden;
+  padding:0;
+  margin: 30px auto;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  -o-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+.slide place{
+  display:block;
+  width:0;
+  float:left;
+  -webkit-transition: all 0.75s;
+  -moz-transition: all 0.75s;
+  transition: all 0.75s;
+}
 #left-sidebar{
   float:left;
   width:430px;
