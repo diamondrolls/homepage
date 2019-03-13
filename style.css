@@ -63,7 +63,7 @@ html { background-image:url('https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c5
 	
 }
 p{
-  color:white;
+  
 	font-size:19px;
 }
 .membershiparea{
@@ -134,6 +134,7 @@ button{
   border-shadow:5px;
   border-color:rgba(222, 0, 222, 1);
   opacity:1;
+	
 }
 .neon
 {
