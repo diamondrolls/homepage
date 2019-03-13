@@ -128,7 +128,7 @@ button{
   height:150px;
   border-shadow:5px;
   border-color:rgba(222, 0, 222, 1);
-  opacity:.5;
+  opacity:1;
 }
 .neon
 {
