@@ -127,7 +127,7 @@ h2{
 
 .superfly{
   width:720px;
-  
+  over-flow:scroll;
   margin-left:28%;
   margin-right:40%;
   background-color:rgba(220, 220, 220, .5);
@@ -147,8 +147,8 @@ button{
   height:150px;
   border-shadow:5px;
   border-color:rgba(222, 0, 222, 1);
-  
-	
+  overflow:scroll;
+	foat:right;
 }
 .neon
 {
