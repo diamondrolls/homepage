@@ -8,27 +8,27 @@ html { background-image:url('https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c5
  
   width:250px;
   height:150px;
-  animation:moneytime 5s linear 1s infinite alternate;
-  -webkit-animation: moneytime 5s linear 1s infinite alternate;/* Safari 4.0 - 8.0 */
+  animation:moneytime 5s linear 1s infinite;
+  -webkit-animation: moneytime 5s linear 1s infinite;/* Safari 4.0 - 8.0 */
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes moneytime{
   from{
-    left:10px;
+    right:10px;
     
   }
   to{
-    left:85%;
+    right:75%;
    
   }
 }
 @keyframes moneytime{
   from{
-    left:10px;
+    right:10px;
     
   }
   to{
-    left:85%;
+    right:75%;
   }
 }
 
