@@ -37,6 +37,15 @@ html { background-image:url('https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c5
     right:110%;
   }
 }
+.coverphoto{
+	background-image:url("https://i.pinimg.com/originals/52/83/fc/5283fcaf7ea8b04624111280bb3592e9.gif");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-style:outset;
+	height:500px;
+		width:750px;
+	opacity:.7;
+}
 .slide{
   width: 230px;
   height: 350px;
