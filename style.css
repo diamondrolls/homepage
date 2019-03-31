@@ -111,8 +111,8 @@ width:360px;
 	}
 .border5{
 	
-	width:950px; 
-	height:1100px;
+	width:100%; 
+	padding-top:10%;
          background-image:url('https://i.pinimg.com/564x/f1/f3/f6/f1f3f6597074e40e6d2d2b70d1e9c0d3.jpg');
   background-repeat:no-repeat;
   background-size:cover;
