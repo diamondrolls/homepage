@@ -45,6 +45,7 @@ html { background-image:url('https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c5
 	height:500px;
 		width:750px;
 	opacity:.7;
+	background-size:750px 500px;
 }
 .slide{
   width: 230px;
