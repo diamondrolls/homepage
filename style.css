@@ -1,6 +1,6 @@
 html { background-image:url('https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c53860572a1c29970ce14a8.gif');
 	height:1000px;
-		width:1000px;
+		width:100%;
 	overflow:hidden;
 }
 .revolver{
@@ -80,7 +80,6 @@ html { background-image:url('https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c5
 
 .membershiparea{
 width:360px;
-	display:flex;
 	height:600px;
 }
 
