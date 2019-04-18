@@ -139,7 +139,7 @@ h2{
 .clothed{
 		   height:550px;
 		   width:700px;
-		   background-image:url("https://i.pinimg.com/originals/a7/a5/96/a7a59632f36880d78e0940112f341a1f.jpg");
+		   background-image:url('https://i.pinimg.com/originals/a7/a5/96/a7a59632f36880d78e0940112f341a1f.jpg');
 		   background-size:700px 550px;
 		   background-repeat:no-repeat;
                    padding-bottom:25%;
@@ -147,6 +147,14 @@ h2{
 .withlove{
 	width:100%;
 	height:150px;
+}
+.loverboy{
+	border-style:outset;
+	background-image:url('https://i.pinimg.com/564x/aa/ec/fb/aaecfbf5713710f1c0b63cbc3df06f02.jpg');
+	height:400px;
+	width:350px;
+	background-size:350px 400px;
+	background-repeat:no-repeat;
 }
 .neon
 {
