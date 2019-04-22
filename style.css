@@ -87,9 +87,9 @@ width:360px;
 	border-style:outset;
 	border-color:#E5E4E2;
 	height:210px;
-	width:210px;
+	width:400px;
   background-image:url('https://media3.giphy.com/media/l41YoVcd7UhOWIDBK/giphy.gif');
-  background-size:210px 210px;
+  background-size:400px 210px;
 	}
 .stocks2{
 	border-style:outset;
@@ -97,23 +97,23 @@ width:360px;
 	height:210px;
 	width:400px;
   background-image:url('https://i.pinimg.com/originals/b6/e6/0c/b6e60c232eea473eb8bce612ed569cd3.gif');
-  background-size:210px 210px;
+  background-size:400px 210px;
 	}
 .health3{
 	border-style:outset;
 	border-color:#E5E4E2;
 	height:210px;
-	width:210px;
+	width:400px;
   background-image:url('https://media0.giphy.com/media/FRfhS8hv0U0Te/giphy.gif');
-  background-size:210px 210px;
+  background-size:400px 210px;
 	}
 .products4{
 	border-style:outset;
 	border-color:#E5E4E2;
 	height:210px;
-	width:210px;
+	width:400px;
   background-image:url('https://media1.giphy.com/media/RSZI67yZwYsxi/giphy.gif');
-  background-size:210px 210px;
+  background-size:400px 210px;
 	}
 .border5{
 	
@@ -161,9 +161,9 @@ h9{
 .loverboy{
 	border-style:outset;
 	background-image:url('https://i.pinimg.com/564x/aa/ec/fb/aaecfbf5713710f1c0b63cbc3df06f02.jpg');
-	height:400px;
-	width:350px;
-	background-size:350px 400px;
+	height:210px;
+	width:400;
+	background-size:400px 210px;
 	background-repeat:no-repeat;
 }
 .neon
