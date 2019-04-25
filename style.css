@@ -20,7 +20,7 @@ html { background-color:rgba(225, 0, 225, 1);
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes moneytime{
   from{
-    right:-20%;
+    right:50%;
     
   }
   to{
@@ -30,7 +30,7 @@ html { background-color:rgba(225, 0, 225, 1);
 }
 @keyframes moneytime{
   from{
-    right:-20%;
+    right:50%;
     
   }
   to{
