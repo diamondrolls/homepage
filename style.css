@@ -91,14 +91,6 @@ width:360px;
   background-image:url('https://i.pinimg.com/originals/04/69/77/046977bbd5b3678cbe301d60f1672bba.gif');
   background-size:400px 210px;
 	}
-.stocks2{
-	border-style:outset;
-	border-color:#E5E4E2;
-	height:210px;
-	width:400px;
-  background-image:url('https://i.pinimg.com/originals/b6/e6/0c/b6e60c232eea473eb8bce612ed569cd3.gif');
-  background-size:400px 210px;
-	}
 .health3{
 	border-style:outset;
 	border-color:#E5E4E2;
@@ -166,6 +158,14 @@ h9{
 	background-size:400px 210px;
 	background-repeat:no-repeat;
 }
+.stocks2{
+	border-style:outset;
+	border-color:#E5E4E2;
+	height:210px;
+	width:400px;
+  background-image:url('https://i.pinimg.com/originals/b6/e6/0c/b6e60c232eea473eb8bce612ed569cd3.gif');
+  background-size:400px 210px;
+	}
 .realestate{
 	border-style:outset;
 	background-image:url('https://i.pinimg.com/originals/d7/1d/b3/d71db35293a69caaa33bacd9f85d506e.gif');
