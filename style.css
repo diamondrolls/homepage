@@ -121,7 +121,7 @@ width:360px;
 	background-size:100% 1100px;
   background-size:cover;
 	z-index:-5;
-
+border-style:outset;
 		  }
 
 
@@ -216,7 +216,7 @@ h9{
 	filter:blur(40px);
 }
 body{
-	width:100%;
+	 width:1010px;
 	height:900px;
 	overflow:scroll;
 	padding-top:23%;
