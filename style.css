@@ -219,7 +219,7 @@ h9{
  .thorshammer{		  
 z-index:88;
 		  position:absolute;
-	  padding-left:900px;
+	  right:750px;
 width:350px;
    height:700px;
 border-style:outset;
