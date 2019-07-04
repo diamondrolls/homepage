@@ -215,6 +215,17 @@ h9{
 	opacity:.5;
 	filter:blur(40px);
 }
+
+ .thorshammer{		  
+z-index:88;
+		  position:absolute;	
+width:350px;
+   height:700px;
+border-style:outset;
+overflow:hidden;
+background-color:rgba(22, 23, 50, .7);
+		  float:right;}
+
 body{
 	 width:1010px;
 	height:900px;
