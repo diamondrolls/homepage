@@ -228,10 +228,11 @@ background-color:rgba(225, 0, 0, .7);
 		  float:right;}
 body{
         overflow:scroll;   
-	 width:100%;
+	 width:950px;
 	 height:100%;
           z-index:-5;
 	 border-style:outset;
+	float:left;
 	 
            }
 
