@@ -3,44 +3,7 @@ html { background-image:url("https://i.pinimg.com/originals/35/38/ed/3538edbdb53
 		width:100%;
 	overflow:hidden;
 }
-.revolver{
-	position:absolute;
-	z-index:49;
-	width:100%;
-	height:110px;
-	overflow:hidden;
-}
-.containers{
- position:absolute;
-  z-index:50;
-  width:100px;
-		 background-image:url("https://i.pinimg.com/originals/35/38/ed/3538edbdb531c7fe3bb387ead4b398b0.png");
-	  background-size:100px 100px;
-	  background-repeat:no-repeat;
-  height:100px;
-  animation:moneytime 6s linear 1s infinite;
-  -webkit-animation: moneytime 6s linear 1s infinite;/* Safari 4.0 - 8.0 */
-}
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes moneytime{
-  from{
-    right:52%;
-    
-  }
-  to{
-    right:110%;
-   
-  }
-}
-@keyframes moneytime{
-  from{
-    right:52%;
-    
-  }
-  to{
-    right:110%;
-  }
-		  }
+
 .coverphoto{
 	background-image:url("https://i.pinimg.com/originals/52/83/fc/5283fcaf7ea8b04624111280bb3592e9.gif");
 	background-size:cover;
@@ -184,43 +147,7 @@ h9{
 	background-size:400px 210px;
 	background-repeat:no-repeat;
 }
-.neon
-{
-  position:absolute;
-  top:10%;
-  left:35%;
-	translate:transform (-50%,-50%);
-	margin:0;
-	padding:0 20px;
-	font-size:6em;
-	color:#34ccff;
-	text-shadow:0 0 20px;
-}
 
-
-.neon:after
-{
-	top:0;
-	left:0;
-	content:attr(data-text);
-	position:absolute;
-	padding:0 0 20px;
-	z-index:-1;
-	color:#34ccff;
-	filter:blur(15px);
-}
-
-.neon:before
-{
-	content:" ";
-	top:0;
-	left:0;
-	position:absolute;
-	background:#34ccff;
-	z-index:-3;
-	opacity:.5;
-	filter:blur(40px);
-}
 
  .thorshammer{		  
 z-index:88;
