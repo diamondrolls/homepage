@@ -4,16 +4,14 @@ html { background-image:url("https://i.pinimg.com/originals/35/38/ed/3538edbdb53
 	overflow:hidden;
 }
 
-.coverphoto{
-	background-image:url("https://i.pinimg.com/originals/33/78/7a/33787a46481989a374f93b867e94e0af.gif");
-	background-size:cover;
-	background-repeat:no-repeat;
-	border-style:outset;
-	height:500px;
-		width:750px;
-	opacity:.7;
-	background-size:750px 500px;
-}
+.homepage{
+		   borderstyle:outset;
+	width:100px;
+	height:100px;
+	background-image:url('https://i.pinimg.com/564x/35/38/ed/3538edbdb531c7fe3bb387ead4b398b0.jpg');
+	background-size:100px 100px;
+	
+		   }
 
 
 #left-sidebar{
