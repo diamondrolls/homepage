@@ -67,7 +67,8 @@ width:360px;
 	height:210px;
 	width:400px;
   background-image:url('https://i.pinimg.com/564x/f7/6a/47/f76a47246b3c49ed6bf8a5aa4a1a7936.jpg');
-  background-size:400px 210px;
+  background-size:400px 210px;\
+	z-index:71; 
 	}
 .health3{
 	border-style:outset;
@@ -76,6 +77,7 @@ width:360px;
 	width:400px;
   background-image:url('https://i.pinimg.com/originals/ea/92/80/ea9280576b225178b7bb1215246bfee9.gif');
   background-size:400px 210px;
+	z-index:71; 
 	}
 .products4{
 	border-style:outset;
@@ -84,6 +86,7 @@ width:360px;
 	width:400px;
   background-image:url('https://i.pinimg.com/564x/5d/76/a0/5d76a093d187b1c899466faaff1a4dae.jpg');
   background-size:400px 210px;
+	z-index:71; 
 	}
 
 .loverboy{
@@ -93,6 +96,7 @@ width:360px;
 	width:400;
 	background-size:400px 210px;
 	background-repeat:no-repeat;
+	z-index:71; 
 }
 .stocks2{
 	border-style:outset;
@@ -101,6 +105,7 @@ width:360px;
 	width:400;
 	background-size:400px 210px;
 	background-repeat:no-repeat;
+	z-index:71; 
 }
 .realestate{
 	border-style:outset;
@@ -109,6 +114,7 @@ width:360px;
 	width:400;
 	background-size:400px 210px;
 	background-repeat:no-repeat;
+	z-index:71; 
 }
 
 .border5{
@@ -122,7 +128,7 @@ border-style:outset;
 		  }
 
 h3{
-  color:#FFFFFF;
+  color:rgb(255,215,0);
   font-size:50px;
 	z-index:71; 
 }
