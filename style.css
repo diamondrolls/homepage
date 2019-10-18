@@ -121,6 +121,11 @@ width:360px;
 border-style:outset;
 		  }
 
+h3{
+  color:#FFFFFF;
+  font-size:50px;
+	z-index:71; 
+}
 
 h2{
 	font-size:20px;
