@@ -62,6 +62,7 @@ width:360px;
     }  
 
 .finances1{
+	border-radius:50px;
 	border-style:outset;
 	border-color:aqua;
 	height:210px;
@@ -69,6 +70,7 @@ width:360px;
  background-color:rgba(255, 105, 180, .7);
 	}
 .health3{
+	border-radius:50px;
 	border-style:outset;
 	border-color:aqua;
 	height:210px;
@@ -76,6 +78,7 @@ width:360px;
   background-color:rgba(255, 105, 180, .7); 
 	}
 .products4{
+	border-radius:50px;
 	border-style:outset;
 	border-color:aqua;
 	height:210px;
@@ -84,6 +87,7 @@ width:360px;
 	}
 
 .loverboy{
+	border-radius:50px;
 	border-color:aqua;
 	border-style:outset;
 	height:210px;
@@ -91,6 +95,7 @@ width:360px;
 	background-color:rgba(255, 105, 180, .7);
 }
 .stocks2{
+	border-radius:50px;
 	border-color:aqua;
 	border-style:outset;
         height:210px;
@@ -98,6 +103,7 @@ width:360px;
 	background-color:rgba(255, 105, 180, .7);
 }
 .realestate{
+	border-radius:50px;
 	border-color:aqua;
 	border-style:outset;
 	height:210px;
