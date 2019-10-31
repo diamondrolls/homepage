@@ -63,39 +63,42 @@ width:360px;
 
 .finances1{
 	border-style:outset;
-	border-color:#E5E4E2;
+	border-color:aqua;
 	height:210px;
 	width:400px;
  background-color:rgba(255, 105, 180, .7);
 	}
 .health3{
 	border-style:outset;
-	border-color:#E5E4E2;
+	border-color:aqua;
 	height:210px;
 	width:400px;
   background-color:rgba(255, 105, 180, .7); 
 	}
 .products4{
 	border-style:outset;
-	border-color:#E5E4E2;
+	border-color:aqua;
 	height:210px;
 	width:400px;
   background-color:rgba(255, 105, 180, .7);
 	}
 
 .loverboy{
+	border-color:aqua;
 	border-style:outset;
 	height:210px;
 	width:400;
 	background-color:rgba(255, 105, 180, .7);
 }
 .stocks2{
+	border-color:aqua;
 	border-style:outset;
         height:210px;
 	width:400;
 	background-color:rgba(255, 105, 180, .7);
 }
 .realestate{
+	border-color:aqua;
 	border-style:outset;
 	height:210px;
 	width:400;
@@ -106,7 +109,6 @@ width:360px;
 	overflow:scroll;
 	width:100%; 
 	height:1070px;
-	padding-top:10%;
         background-image:url('https://i.pinimg.com/originals/1a/6b/d5/1a6bd53b897b920d9ba5132a8cccbcb4.gif');
 	 background-size:100% 1070px;
 		   background-repeat:no-repeat;
