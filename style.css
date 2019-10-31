@@ -66,55 +66,40 @@ width:360px;
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/564x/f7/6a/47/f76a47246b3c49ed6bf8a5aa4a1a7936.jpg');
-  background-size:400px 210px;\
-	z-index:71; 
+ background-color:rgba(255, 105, 180, .7);
 	}
 .health3{
 	border-style:outset;
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/originals/ea/92/80/ea9280576b225178b7bb1215246bfee9.gif');
-  background-size:400px 210px;
-	z-index:71; 
+  background-color:rgba(255, 105, 180, .7); 
 	}
 .products4{
 	border-style:outset;
 	border-color:#E5E4E2;
 	height:210px;
 	width:400px;
-  background-image:url('https://i.pinimg.com/564x/5d/76/a0/5d76a093d187b1c899466faaff1a4dae.jpg');
-  background-size:400px 210px;
-	z-index:71; 
+  background-color:rgba(255, 105, 180, .7);
 	}
 
 .loverboy{
 	border-style:outset;
-	background-image:url('https://i.pinimg.com/originals/4d/de/f1/4ddef18732b35ebab7372e1fbb01b8ce.gif');
 	height:210px;
 	width:400;
-	background-size:400px 210px;
-	background-repeat:no-repeat;
-	z-index:71; 
+	background-color:rgba(255, 105, 180, .7);
 }
 .stocks2{
 	border-style:outset;
-	background-image:url('https://i.pinimg.com/564x/f7/1f/1d/f71f1d090a986b39d18a34ee0f491261.jpg');
         height:210px;
 	width:400;
-	background-size:400px 210px;
-	background-repeat:no-repeat;
-	z-index:71; 
+	background-color:rgba(255, 105, 180, .7);
 }
 .realestate{
 	border-style:outset;
-	background-image:url('https://i.pinimg.com/564x/ea/d2/09/ead20906331d848bed98634079004196.jpg');
 	height:210px;
 	width:400;
-	background-size:400px 210px;
-	background-repeat:no-repeat;
-	z-index:71; 
+	background-color:rgba(255, 105, 180, .7);
 }
 
 .border5{
@@ -122,7 +107,7 @@ width:360px;
 	width:100%; 
 	height:1070px;
 	padding-top:10%;
-        background-color:rgba(225, 0, 0, .7);
+        background-image:url('https://i.pinimg.com/originals/1a/6b/d5/1a6bd53b897b920d9ba5132a8cccbcb4.gif');
 	z-index:-5;
 border-style:outset;
 		  }
