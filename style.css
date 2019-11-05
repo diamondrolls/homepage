@@ -1,4 +1,4 @@
-html { background-color:#black;
+html { background-color:black;
 	height:100%;
 		width:100%;
 	overflow:hidden;
@@ -35,41 +35,6 @@ width:360px;
 	height:600px;
 }
 
-.finances1:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.realestate:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.stocks2:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.loverboy:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.products4:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.health3:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
 
 .finances1{
 	position:relative;
@@ -133,6 +98,39 @@ width:360px;
 	height:220px;
 		  }
 
+.loverboy:hover {
+	position:relative;
+    background-color:rgba(255, 105, 180, .7); 
+	translate:transform (-50%,-50%);
+    }  
+
+.products4:hover {
+	position:relative;
+    background-color:rgba(255, 105, 180, .7); 
+	translate:transform (-50%,-50%);
+    }  
+
+.health3:hover {
+	position:relative;
+    background-color:rgba(255, 105, 180, .7); 
+	translate:transform (-50%,-50%);
+    }  
+.finances1:hover {
+	position:relative;
+    background-color:rgba(255, 105, 180, .7); 
+	translate:transform (-50%,-50%);
+    }  
+
+.realestate:hover {
+	position:relative;
+    background-color:rgba(255, 105, 180, .7); 
+	translate:transform (-50%,-50%);
+    }  
+.stocks2:hover {
+	position:relative;
+    background-color:rgba(255, 105, 180, .7); 
+	translate:transform (-50%,-50%);
+    }  
 .border5{
 	padding-top:10%;
 	overflow:scroll;
@@ -142,7 +140,7 @@ width:360px;
 	 background-size:800px 550px;
 		   background-repeat:no-repeat;
 	z-index:-5;
-border-style:outset;
+
 		  }
 
 h3{
@@ -308,4 +306,3 @@ body{
 	 		position:absolute;
 
            }
-
