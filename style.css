@@ -26,6 +26,7 @@ html { background-image:url("https://i.pinimg.com/originals/35/38/ed/3538edbdb53
 	
 }
 .membership{
+	float:left;
 width:60px;
 	height:60px;
 }
@@ -134,7 +135,7 @@ width:360px;
 
 .border4{
 	overflow:hidden;
-	width:2500px; 
+	width:2860px; 
 	height:220px;
 		  }
 
