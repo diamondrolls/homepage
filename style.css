@@ -32,31 +32,37 @@ width:360px;
 }
 
 .finances1:hover {
+	position:relative;
     float:none;
     background-color:aqua; 
     }  
 
 .realestate:hover {
+	position:relative;
     float:none;
     background-color:aqua; 
     }  
 
 .stocks2:hover {
+	position:relative;
     float:none;
     background-color:aqua; 
     }  
 
 .loverboy:hover {
+	position:relative;
     float:none;
     background-color:aqua; 
     }  
 
 .products4:hover {
+	position:relative;
     float:none;
     background-color:aqua; 
     }  
 
 .health3:hover {
+	position:relative;
     float:none;
     background-color:aqua; 
     }  
