@@ -69,6 +69,7 @@ width:360px;
 	height:210px;
 	width:400px;
  background-color:rgba(255, 105, 180, .7);
+	float:left;
 	}
 .health3{
 	position:relative;
@@ -78,6 +79,7 @@ width:360px;
 	height:210px;
 	width:400px;
   background-color:rgba(255, 105, 180, .7); 
+	float:left;
 	}
 .products4{
 	position:relative;
@@ -87,6 +89,7 @@ width:360px;
 	height:210px;
 	width:400px;
   background-color:rgba(255, 105, 180, .7);
+	float:left;
 	}
 
 .loverboy{
@@ -95,8 +98,9 @@ width:360px;
 	border-color:aqua;
 	border-style:outset;
 	height:210px;
-	width:400;
+	width:400px;
 	background-color:rgba(255, 105, 180, .7);
+	float:left;
 }
 .stocks2{
 	position:relative;
@@ -104,8 +108,9 @@ width:360px;
 	border-color:aqua;
 	border-style:outset;
         height:210px;
-	width:400;
+	width:400px;
 	background-color:rgba(255, 105, 180, .7);
+	float:left;
 }
 .realestate{
 	position:relative;
@@ -113,16 +118,23 @@ width:360px;
 	border-color:aqua;
 	border-style:outset;
 	height:210px;
-	width:400;
+	width:400px;
 	background-color:rgba(255, 105, 180, .7);
+	float:left;
 }
+
+.border4{
+	overflow:hidden;
+	width:2500px; 
+	height:220px;
+		  }
 
 .border5{
 	overflow:scroll;
-	width:100%; 
-	height:1070px;
+	width:800px; 
+	height:750px;
         background-image:url('https://i.pinimg.com/originals/ef/49/1d/ef491da080490431059aa289a2051e7f.gif');
-	 background-size:100% 1070px;
+	 background-size:800px 750px;
 		   background-repeat:no-repeat;
 	z-index:-5;
 border-style:outset;
