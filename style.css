@@ -36,37 +36,37 @@ width:360px;
 }
 
 .finances1:hover {
-	position:absolute;
+	position:relative;
     background-color:rgba(255, 105, 180, .7); 
 	translate:transform (-50%,-50%);
     }  
 
 .realestate:hover {
-	position:absolute;
+	position:relative;
     background-color:rgba(255, 105, 180, .7); 
 	translate:transform (-50%,-50%);
     }  
 
 .stocks2:hover {
-	position:absolute;
+	position:relative;
     background-color:rgba(255, 105, 180, .7); 
 	translate:transform (-50%,-50%);
     }  
 
 .loverboy:hover {
-	position:absolute;
+	position:relative;
     background-color:rgba(255, 105, 180, .7); 
 	translate:transform (-50%,-50%);
     }  
 
 .products4:hover {
-	position:absolute;
+	position:relative;
     background-color:rgba(255, 105, 180, .7); 
 	translate:transform (-50%,-50%);
     }  
 
 .health3:hover {
-	position:absolute;
+	position:relative;
     background-color:rgba(255, 105, 180, .7); 
 	translate:transform (-50%,-50%);
     }  
