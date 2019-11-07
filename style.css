@@ -92,12 +92,21 @@ width:360px;
 	float:left;
 }
 
-.border4{
-	overflow:hidden;
-	width:2860px; 
-	height:220px;
-		  }
+.salesfunnel{
+	position:relative;
+	border-radius:50px;
+	border-color:aqua;
+	border-style:outset;
+	height:210px;
+	width:400px;
+	float:left;
+}
 
+.salesfunnel:hover {
+	position:relative;
+    background-color:rgba(255, 105, 180, .7); 
+	translate:transform (-50%,-50%);
+    }  
 .loverboy:hover {
 	position:relative;
     background-color:rgba(255, 105, 180, .7); 
@@ -142,7 +151,11 @@ width:360px;
 	z-index:-5;
 
 		  }
-
+.border4{
+	overflow:hidden;
+	width:2860px; 
+	height:220px;
+		  }
 h3{
   color:rgb(255,0,0);
   font-size:50px;
