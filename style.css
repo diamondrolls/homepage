@@ -102,7 +102,7 @@ width:360px;
 	float:left;
 }
 
-.stolenCards{
+.StolenCredit{
 	position:relative;
 	border-radius:50px;
 	border-color:aqua;
@@ -112,7 +112,7 @@ width:360px;
 	float:left;
 }
 
-.stolenCards:hover {
+.StolenCredit:hover {
 	position:relative;
     background-color:rgba(255, 105, 180, .7); 
 	translate:transform (-50%,-50%);
