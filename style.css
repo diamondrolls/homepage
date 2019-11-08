@@ -102,6 +102,22 @@ width:360px;
 	float:left;
 }
 
+.stolenCards{
+	position:relative;
+	border-radius:50px;
+	border-color:aqua;
+	border-style:outset;
+	height:210px;
+	width:400px;
+	float:left;
+}
+
+.stolenCards:hover {
+	position:relative;
+    background-color:rgba(255, 105, 180, .7); 
+	translate:transform (-50%,-50%);
+    }  
+
 .salesfunnel:hover {
 	position:relative;
     background-color:rgba(255, 105, 180, .7); 
@@ -153,7 +169,7 @@ width:360px;
 		  }
 .border4{
 	overflow:hidden;
-	width:3230px; 
+	width:3690px; 
 	height:220px;
 		  }
 h3{
