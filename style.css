@@ -25,54 +25,17 @@ html { background-color:black;
   width:401px;
 	
 }
+
+.membershiparea{
+width:360px;
+	height:600px;
+}
 .membership{
 	float:left;
 width:60px;
 	height:60px;
 }
-.membershiparea{
-width:360px;
-	height:600px;
-}
 
-
-.finances1{
-	position:relative;
-	border-radius:50px;
-	border-style:outset;
-	border-color:aqua;
-	height:210px;
-	width:400px;
-	float:left;
-	}
-.health3{
-	position:relative;
-	border-radius:50px;
-	border-style:outset;
-	border-color:aqua;
-	height:210px;
-	width:400px;
-	float:left;
-	}
-.products4{
-	position:relative;
-	border-radius:50px;
-	border-style:outset;
-	border-color:aqua;
-	height:210px;
-	width:400px;
-	float:left;
-	}
-
-.loverboy{
-	position:relative;
-	border-radius:50px;
-	border-color:aqua;
-	border-style:outset;
-	height:210px;
-	width:400px;
-	float:left;
-}
 .stocks2{
 	position:relative;
 	border-radius:50px;
@@ -82,75 +45,8 @@ width:360px;
 	width:400px;
 	float:left;
 }
-.realestate{
-	position:relative;
-	border-radius:50px;
-	border-color:aqua;
-	border-style:outset;
-	height:210px;
-	width:400px;
-	float:left;
-}
 
-.salesfunnel{
-	position:relative;
-	border-radius:50px;
-	border-color:aqua;
-	border-style:outset;
-	height:210px;
-	width:400px;
-	float:left;
-}
-
-.StolenCredit{
-	position:relative;
-	border-radius:50px;
-	border-color:aqua;
-	border-style:outset;
-	height:210px;
-	width:400px;
-	float:left;
-}
-
-.StolenCredit:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.salesfunnel:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-.loverboy:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.products4:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.health3:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-.finances1:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
-
-.realestate:hover {
-	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
-	translate:transform (-50%,-50%);
-    }  
+ 
 .stocks2:hover {
 	position:relative;
     background-color:rgba(255, 105, 180, .7); 
