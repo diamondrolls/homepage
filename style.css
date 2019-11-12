@@ -89,13 +89,7 @@ h9{
 	text-align:left;
 	color:#red;
 }
-  .nighttime{
-			  border-style:outset;
-			  font-size:20px;
-	width:900px;
-	height:600px;
-	overflow:scroll;
-		  }
+ 
 
 .clothed{
 		   height:550px;
@@ -204,7 +198,7 @@ ul li a {
     color: #34ccff;
     display: block;
    width:450px;
-  height:150px;
+  height:250px;
   overflow:scroll;
 	font-size:60px;
 }
