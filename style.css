@@ -1,3 +1,28 @@
+.lamborghini{
+   float:left;
+   position:relative;
+  width:100%;
+  height:550px;
+  animation:cmoney 2.5s ;
+  -webkit-animation: cmoney 2.5s ;/* Safari 4.0 - 8.0 */
+ 
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cmoney{
+  0% { top:-650pxpx;}
+     50% { top:55px;}
+	100% { top:45px;}
+  
+}
+@keyframes  cmoney{
+  0% {left:5%; top:-650px;}
+     50% {left:5%; top:55px;}
+	100% {left:5%; top:45px;}
+  
+   
+  
+}
+
 html { background-color:black;
 	height:100%;
 		width:100%;
@@ -37,6 +62,7 @@ width:60px;
 }
 
 .stocks2{
+  align:center;
 	position:relative;
 	border-radius:50px;
         height:210px;
@@ -51,20 +77,15 @@ width:60px;
 	translate:transform (-50%,-50%);
     }  
 .border5{
-	padding-top:10%;
+	float:right;
 	overflow:scroll;
-	width:100%; 
-	height:550px;
+	width:420px; 
+	height:450px;
         background-color:rgba(161, 202, 241 .7);
 	border-style:outset;
        border-radius:50px;
 		  }
-.border4{
-	overflow:hidden;
-	width:3690px; 
-	height:220px;
-	background-color:rgba(161, 202, 241 .7);
-		  }
+
 h3{
   color:rgb(255,0,0);
   font-size:50px;
@@ -172,7 +193,8 @@ h9{
 
 .withlove{
 	width:100%;
-	height:150px;
+	height:650px;
+  position:relative;
 }
 
 
