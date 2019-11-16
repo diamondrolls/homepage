@@ -39,8 +39,6 @@ width:60px;
 .stocks2{
 	position:relative;
 	border-radius:50px;
-	border-color:aqua;
-	border-style:outset;
         height:210px;
 	width:400px;
 	float:left;
@@ -57,11 +55,10 @@ width:60px;
 	overflow:scroll;
 	width:100%; 
 	height:550px;
-        background-image:url('https://i.pinimg.com/originals/37/98/26/37982696da872738270b8435371ffaf4.gif');
-	 background-size:100% 550px;
-		   background-repeat:no-repeat;
+        background-color:rgba(161, 202, 241 .7);
 	z-index:-5;
-
+	border-style:outset;
+       border-radius:50px;
 		  }
 .border4{
 	overflow:hidden;
