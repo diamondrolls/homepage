@@ -56,7 +56,6 @@ width:60px;
 	width:100%; 
 	height:550px;
         background-color:rgba(161, 202, 241 .7);
-	z-index:-5;
 	border-style:outset;
        border-radius:50px;
 		  }
