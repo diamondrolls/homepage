@@ -1,11 +1,9 @@
 .lamborghini{
-   float:left;
-   position:relative;
-  width:100%;
+ width:100%;
   height:550px;
-  animation:cmoney 2.5s ;
-  -webkit-animation: cmoney 2.5s ;/* Safari 4.0 - 8.0 */
- 
+ background-repeat:no-repeat;
+ background-image:url('https://i.pinimg.com/originals/35/38/ed/3538edbdb531c7fe3bb387ead4b398b0.png');
+	background-size:100% 550px;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes cmoney{
@@ -72,13 +70,15 @@ width:360px;
 	translate:transform (-50%,-50%);
     }  
 .border5{
-	float:right;
+	position:relative;
 	overflow:scroll;
 	width:420px; 
 	height:450px;
         background-color:rgba(161, 202, 241, .7);
 	border-style:outset;
        border-radius:50px;
+	 animation:cmoney 2.5s ;
+  -webkit-animation: cmoney 2.5s ;/* Safari 4.0 - 8.0 */
 		  }
 
 h3{
