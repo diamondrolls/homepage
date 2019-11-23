@@ -1,7 +1,7 @@
 .lamborghini{
  width:100%;
   height:550px;
-background-color:rgba(161, 202, 241, .7);
+  padding-top:7px;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes cmoney{
