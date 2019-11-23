@@ -64,15 +64,17 @@ width:360px;
  
 .stocks2:hover {
 	position:relative;
-    background-color:rgba(0, 0, 0, 1); 
+    background-color:rgba(0, 0, 0,.4); 
 	translate:transform (-50%,-50%);
     }  
 .border5{
 	position:relative;
 	overflow:scroll;
 	width:500px; 
-	height:450px;
-        background-color:rgba(161, 202, 241, .7);
+	height:500px;
+        background-image:url('https://i.pinimg.com/originals/ec/15/88/ec15884fdeeac17cb7ed4b3e81343704.gif');
+	background-size:500px 500px;
+	background-repeat:no-repeat;
 	border-style:outset;
        border-radius:50px;
 	 animation:cmoney 2.5s ;
