@@ -66,7 +66,7 @@ width:360px;
  
 .stocks2:hover {
 	position:relative;
-    background-color:rgba(255, 105, 180, .7); 
+    background-color:rgba(255, 105, 180, 1); 
 	translate:transform (-50%,-50%);
     }  
 .border5{
