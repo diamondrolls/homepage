@@ -136,42 +136,6 @@ h9{
 	color:#red;
 }
 
-.revolver{
-		position:absolute;
-	z-index:99;
-	width:100%;
-	height:110px;
-	overflow:hidden;	  
-	 }
-		  
-.containers{
- position:absolute;
-  z-index:50;
-  width:100px;
-  height:100px;
-  animation:moneytime 6s linear 1s infinite;
-  -webkit-animation: moneytime 6s linear 1s infinite;/* Safari 4.0 - 8.0 */
-}
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes moneytime{
-  from{
-    right:52%;
-    
-  }
-  to{
-    right:110%;
-   
-  }
-}
-@keyframes moneytime{
-  from{
-    right:52%;
-    
-  }
-  to{
-    right:110%;
-  }
-		  }
 
   .neon
 {
