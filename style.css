@@ -102,7 +102,7 @@ width:360px;
 	translate:transform (-50%,-50%);
     }  
 .border5{
-	position:relative;
+	position:absolute;
 	overflow:scroll;
 	width:500px; 
 	height:500px;
