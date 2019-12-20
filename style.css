@@ -5,15 +5,15 @@
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes cmoney{
-  0% { top:-650pxpx;}
+  0% { top:-650px;}
      50% { top:55px;}
 	100% { top:45px;}
   
 }
 @keyframes  cmoney{
-  0% {left:5%; top:-650px;}
-     50% {left:5%; top:55px;}
-	100% {left:5%; top:45px;}
+  0% { top:-650px;}
+     50% { top:55px;}
+	100% { top:45px;}
   
    
   
