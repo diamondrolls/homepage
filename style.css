@@ -34,20 +34,20 @@
   height:100px;
 	filter:blur(25px);
 	border-radius:50%;
-	position:relative;
+	position:absolute;
 	background-color:#ff2800;
   animation:nocap 3s linear infinite alternate;
 -webkit-animation:nocap 3s linear infinite alternate;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes nocap{
-   0% {left:5%;}
+   0% {left:0%;}
      
 	100% {left:100%;}
   
 }
 @keyframes  nocap{
-  0% {left:5%;}
+  0% {left:0%;}
      
 	100% {left:100%;}
   
