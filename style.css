@@ -36,8 +36,8 @@
 	border-radius:50%;
 	position:relative;
 	background-color:#ff2800;
-  animation:nocap 3s linear 1 infinite alternate;
-@-webkit-animation:nocap 3s linear 1 infinite alternate;
+  animation:nocap 3s linear infinite alternate;
+-webkit-animation:nocap 3s linear infinite alternate;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes nocap{
