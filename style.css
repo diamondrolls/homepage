@@ -42,15 +42,15 @@
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes nocap{
-   0% {left:0%;}
+   0% {left:5px;}
      
-	100% {left:85%;}
+	100% {left:700px;}
   
 }
 @keyframes  nocap{
-  0% {left:0%;}
+  0% {left:5px;}
      
-	100% {left:85%;}
+	100% {left:700px;}
   
 }
 
@@ -218,6 +218,6 @@ body{
         overflow:scroll;   
 	 width:100%;
 	 height:100%;
-	 		position:absolute;
+	 		
 
            }
