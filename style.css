@@ -90,7 +90,8 @@ width:360px;
 }
 
 .stocks1{
-	z-index:99;
+	border-color:rgb(255, 255, 255);
+        z-index:99;
 	position:relative;
 	border-radius:50px;
         height:100px;
@@ -98,10 +99,11 @@ width:360px;
 	float:left;
 	border-style:outset;
 	animation:cmoney 1s ;
-  -webkit-animation: cmoney 1s ;/* Safari 4.0 - 8.0 */
+        -webkit-animation: cmoney 1s ;/* Safari 4.0 - 8.0 */
 }
 
 .stocks2{
+	border-color:rgb(255, 255, 255);
 	z-index:99;
 	position:relative;
 	border-radius:50px;
@@ -110,10 +112,11 @@ width:360px;
 	float:left;
 	border-style:outset;
 	animation:cmoney 2s ;
-  -webkit-animation: cmoney 2s ;/* Safari 4.0 - 8.0 */
+        -webkit-animation: cmoney 2s ;/* Safari 4.0 - 8.0 */
 }
 
 .stocks3{
+	border-color:rgb(255, 255, 255);
 	z-index:99;
 	position:relative;
 	border-radius:50px;
@@ -122,15 +125,26 @@ width:360px;
 	float:left;
 	border-style:outset;
 	animation:cmoney 3s ;
-  -webkit-animation: cmoney 3s ;/* Safari 4.0 - 8.0 */
+        -webkit-animation: cmoney 3s ;/* Safari 4.0 - 8.0 */
 }
 
-.stocks2:hover {
+.stocks1:hover {
 	position:relative;
-    background-color:rgba(0, 0, 0,.4); 
+        background-color:rgba(0, 0, 0,.4); 
 	translate:transform (-50%,-50%);
     }  
 
+.stocks2:hover {
+	position:relative;
+        background-color:rgba(0, 0, 0,.4); 
+	translate:transform (-50%,-50%);
+    }  
+
+.stocks3:hover {
+	position:relative;
+        background-color:rgba(0, 0, 0,.4); 
+	translate:transform (-50%,-50%);
+    }  
 
 h3{
   color:rgb(255,0,0);
