@@ -158,7 +158,7 @@ h9{
   .neon
 {
 		float:left;
- position:absolute;
+ position:relative;
   top:10%;
 	z-index:78;
 	translate:transform (-50%,-50%);
@@ -166,16 +166,7 @@ h9{
 	color:rgb(255,0,0);
 	text-shadow:0 0 20px;
 }
-.neon:after
-{
-	float:left;
-	content:attr(data-text);
-	position:absolute;
-	translate:transform (-50%,-50%);
-	z-index:75;
-	color:rgb(255,0,0);
-	filter:blur(15px);
-}
+
 
 
 .withlove{
