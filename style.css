@@ -93,8 +93,8 @@ width:360px;
 	z-index:99;
 	position:relative;
 	border-radius:50px;
-        height:210px;
-	width:500px;
+        height:100px;
+	width:200px;
 	float:left;
 	border-style:outset;
 	animation:cmoney 1.5s ;
@@ -105,8 +105,8 @@ width:360px;
 	z-index:99;
 	position:relative;
 	border-radius:50px;
-        height:210px;
-	width:500px;
+        height:100px;
+	width:200px;
 	float:left;
 	border-style:outset;
 	animation:cmoney 2.5s ;
@@ -117,8 +117,8 @@ width:360px;
 	z-index:99;
 	position:relative;
 	border-radius:50px;
-        height:210px;
-	width:500px;
+        height:100px;
+	width:200px;
 	float:left;
 	border-style:outset;
 	animation:cmoney 2s ;
@@ -179,17 +179,7 @@ h9{
 	color:rgb(255,0,0);
 	filter:blur(15px);
 }
-.neon:before
-{
-	content:" ";
-	top:0;
-	left:0;
-	position:absolute;
-	background:rgb(255,0,0);
-	z-index:73;
-	opacity:.5;
-	filter:blur(40px);
-}
+
 
 .withlove{
 	width:100%;
