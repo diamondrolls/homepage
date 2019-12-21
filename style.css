@@ -161,18 +161,18 @@ h9{
   top:10%;
 	z-index:78;
 	translate:transform (-50%,-50%);
-	margin:0;
-	padding:0 20px;
+	
+	
 	font-size:50px;
 	color:rgb(255,0,0);
 	text-shadow:0 0 20px;
 }
 .neon:after
 {
-	top:0;
+	
 	content:attr(data-text);
 	position:absolute;
-	padding:0 0 20px;
+	translate:transform (-50%,-50%);
 	z-index:75;
 	color:rgb(255,0,0);
 	filter:blur(15px);
