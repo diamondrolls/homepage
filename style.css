@@ -159,7 +159,6 @@ h9{
 {
   position:absolute;
   top:10%;
-  left:25%;
 	z-index:78;
 	translate:transform (-50%,-50%);
 	margin:0;
@@ -171,7 +170,6 @@ h9{
 .neon:after
 {
 	top:0;
-	left:0;
 	content:attr(data-text);
 	position:absolute;
 	padding:0 0 20px;
