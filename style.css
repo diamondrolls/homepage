@@ -89,32 +89,48 @@ width:360px;
 	height:600px;
 }
 
-.stocks2{
-  align:center;
+.stocks1{
+	z-index:99;
 	position:relative;
 	border-radius:50px;
         height:210px;
 	width:500px;
 	float:left;
+	border-style:outset;
+	animation:cmoney 1.5s ;
+  -webkit-animation: cmoney 2.5s ;/* Safari 4.0 - 8.0 */
 }
 
- 
+.stocks2{
+	z-index:99;
+	position:relative;
+	border-radius:50px;
+        height:210px;
+	width:500px;
+	float:left;
+	border-style:outset;
+	animation:cmoney 2.5s ;
+  -webkit-animation: cmoney 2.5s ;/* Safari 4.0 - 8.0 */
+}
+
+.stocks3{
+	z-index:99;
+	position:relative;
+	border-radius:50px;
+        height:210px;
+	width:500px;
+	float:left;
+	border-style:outset;
+	animation:cmoney 2s ;
+  -webkit-animation: cmoney 2.5s ;/* Safari 4.0 - 8.0 */
+}
+
 .stocks2:hover {
 	position:relative;
     background-color:rgba(0, 0, 0,.4); 
 	translate:transform (-50%,-50%);
     }  
-.border5{
-	 z-index:99;
-	position:relative;
-	overflow:scroll;
-	width:500px; 
-	height:500px;
-	border-style:outset;
-       border-radius:50px;
-	 animation:cmoney 2.5s ;
-  -webkit-animation: cmoney 2.5s ;/* Safari 4.0 - 8.0 */
-		  }
+
 
 h3{
   color:rgb(255,0,0);
