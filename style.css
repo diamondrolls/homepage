@@ -161,7 +161,7 @@ h9{
  position:relative;
   top:10%;
 	z-index:78;
-	translate:transform (-50%,-50%);
+	font-weight: bold;
 	font-size:50px;
 	color:rgb(255,0,0);
 	text-shadow:0 0 20px;
