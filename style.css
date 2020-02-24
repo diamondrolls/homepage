@@ -1,9 +1,9 @@
 .lamborghini{
- width:100%;
+ width:750px;
   height:650px;
-  
+  overflow:scroll;
 	background-image:url('https://i.pinimg.com/originals/65/a4/af/65a4aff712f9b9551a75cac733fc1afa.jpg');
-	background-size:100% 650px;
+	background-size:750px 650px;
 	background-repeat:no-repeat;
 }
 /* Safari 4.0 - 8.0 */
