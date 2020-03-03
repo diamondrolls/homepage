@@ -2,16 +2,17 @@
  width:750px;
   height:650px;
   overflow:scroll;
-background-color:rgba(0,255,0,.5)
+background-color:rgba(0,255,255,.6);
 }
 
 
 .lamborghiniveneno{
- width:750px;
-  height:650px;
+ width:500px;
+  height:500px;
   overflow:scroll;
-	background-image:url('https://i.pinimg.com/originals/d5/e4/f6/d5e4f6c2cb0076956efa3b28a3ce2800.gif');
-	background-size:750px 650px;
+background-color:rgba(0,255,255,.6);
+	background-image:url('https://i.pinimg.com/originals/68/79/ba/6879ba2f7d6b05ead3c2651a8ad008b4.png');
+	background-size:500px 500px;
 	background-repeat:no-repeat;
 }
 
@@ -66,7 +67,7 @@ background-color:rgba(0,255,0,.5)
   
 }
 
-html {  background-color:rgba(0,0,0,.5);
+html {  background-color:rgba(100,100,100,.5);
 	height:100%;
 		width:100%;
 	overflow:hidden;
