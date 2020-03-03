@@ -11,7 +11,7 @@ background-color:rgba(0,255,255,.6);
   height:500px;
   overflow:scroll;
 background-color:rgba(0,255,255,.6);
-	background-image:url('https://i.pinimg.com/originals/68/79/ba/6879ba2f7d6b05ead3c2651a8ad008b4.png');
+	background-image:url('https://i.pinimg.com/originals/35/51/98/355198883f77a4ca252e4718557850b9.jpg');
 	background-size:500px 500px;
 	background-repeat:no-repeat;
 }
@@ -67,7 +67,7 @@ background-color:rgba(0,255,255,.6);
   
 }
 
-html {  background-color:rgba(100,100,100,.5);
+html {  background-color:rgb(0,0,0);
 	height:100%;
 		width:100%;
 	overflow:hidden;
