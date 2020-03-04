@@ -3,6 +3,9 @@
   height:650px;
   overflow:scroll;
 background-color:rgba(0,255,255,.6);
+	border-radius:50px;
+	border-color:rgb(0,255,255);
+	border-style:inset;
 }
 
 
