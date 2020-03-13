@@ -9,17 +9,6 @@ background-color:rgba(0,255,255,.6);
 }
 
 
-.lamborghiniveneno{
- width:500px;
-  height:500px;
-	background-image:url('https://i.pinimg.com/originals/35/51/98/355198883f77a4ca252e4718557850b9.jpg');
-	background-size:400px 400px;
-	background-repeat:no-repeat;
-	border-radius:50%;
-	border-color:rgb(0,255,255);
-	border-style:outset;
-}
-
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes cmoney{
