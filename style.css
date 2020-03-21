@@ -2,9 +2,7 @@
  width:750px;
   height:680px;
   overflow:hidden;
-background-image:url('https://i.pinimg.com/originals/fc/8b/e8/fc8be844a749f39c665809dc6d371195.jpg');
-	background-size:750px 680px;
-background-repeat:no-repeat;
+background-color:rgb(0,255,150);
 border-radius:50px;
 	border-color:rgb(0,255,255);
 	border-style:inset;
