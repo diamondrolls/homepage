@@ -1,4 +1,4 @@
-.lamborghini{
+.yamborghini{
  width:750px;
   height:680px;
   overflow:hidden;
@@ -6,6 +6,7 @@ background-color:rgb(0,255,150);
 border-radius:50px;
 	border-color:rgb(0,255,255);
 	border-style:inset;
+margin-top:300px;
 }
 
 
