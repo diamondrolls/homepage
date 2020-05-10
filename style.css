@@ -1,11 +1,9 @@
 .yamborghini{
  width:750px;
-  height:680px;
+  height:480px;
   overflow:hidden;
-background-color:rgb(255,255,255);
-border-radius:50px;
-	border-color:rgb(0,255,255);
-	border-style:inset;
+
+	
 margin-top:300px;
 }
 
