@@ -87,12 +87,14 @@ width:360px;
 
 .stocks1{
 	border-color:rgb(255, 255, 255);
-	background-color:rgb(0, 0, 0);
+	background-color:rgba(0, 0, 0, .5);
         z-index:99;
 	position:absolute;
-	border-radius:50px;
-        height:100px;
-	width:350px;
+	background-image:url('https://i.pinimg.com/originals/70/f2/4b/70f24bf730ebe14d280148e406e50c6c.jpg');
+	background-size:200px 200px;
+	border-radius:50%;
+        height:200px;
+	width:200px;
 	top:420px;
 	right:5%;
 	border-style:outset;
@@ -102,12 +104,15 @@ width:360px;
 
 .stocks2{
 	border-color:rgb(255, 255, 255);
-	background-color:rgb(0, 0, 0);
+	background-color:rgba(0, 0, 0, .5);
 	z-index:99;
 	position:absolute;
 	border-radius:50px;
-        height:100px;
-	width:350px;
+        background-image:url('https://i.pinimg.com/originals/70/f2/4b/70f24bf730ebe14d280148e406e50c6c.jpg');
+	background-size:200px 200px;
+	border-radius:50%;
+        height:200px;
+	width:200px;
 top:760px;
 	left:5%;
 	border-style:outset;
@@ -117,12 +122,15 @@ top:760px;
 
 .stocks3{
 	border-color:rgb(255, 255, 255);
-	background-color:rgb(0, 0, 0);
+	background-color:rgba(0, 0, 0, .5);
 	z-index:99;
 	position:absolute;
 	border-radius:50px;
-        height:100px;
-	width:350px;
+        background-image:url('https://i.pinimg.com/originals/70/f2/4b/70f24bf730ebe14d280148e406e50c6c.jpg');
+	background-size:200px 200px;
+	border-radius:50%;
+        height:200px;
+	width:200px;
 	top:85%;
 	left:56%;
 	border-style:outset;
