@@ -193,9 +193,9 @@ ul li:hover ul li {
 
 body{
 	background-image:url('https://i.pinimg.com/originals/70/f2/4b/70f24bf730ebe14d280148e406e50c6c.jpg');
-	background-size:799px 1999px;
+	background-size:100% 2000px;
         overflow:hidden;   
-	 width:800px;
+	 width:98%;
 	 height:2000px;
 	 		
 
