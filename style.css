@@ -101,7 +101,7 @@ width:360px;
         height:100px;
 	width:350px;
 	top:360px;
-	left:300px;
+	right:75%;
 	border-style:outset;
 	animation:cmoney 1s ;
         -webkit-animation: cmoney 1s ;/* Safari 4.0 - 8.0 */
@@ -116,7 +116,7 @@ width:360px;
         height:100px;
 	width:350px;
 top:760px;
-	left:600px;
+	left:5%;
 	border-style:outset;
 	animation:cmoney 2s ;
         -webkit-animation: cmoney 2s ;/* Safari 4.0 - 8.0 */
@@ -131,7 +131,7 @@ top:760px;
         height:100px;
 	width:350px;
 	top:1060px;
-	left:500px;
+	left:70%;
 	border-style:outset;
 	animation:cmoney 3s ;
         -webkit-animation: cmoney 3s ;/* Safari 4.0 - 8.0 */
