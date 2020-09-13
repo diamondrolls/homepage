@@ -157,39 +157,49 @@ h9{
 }
 
 
-		   ul {
+		  ul {
        margin:0px;
        padding:0px;
        list-style: none;
-        
+        position:relative;
     }
+		   
 ul li {
-     
-    line-height: 50px;
-    text-align:center;
+Position:relative;
+     width:100px; 
+	height:100px;
     font-size:20px;
     font-family: ariel;
-    
+    Text-align:center;
     }
-ul li a {
-    text-decoration: none;
-    color: #34ccff;
-    display: block;
-   width:450px;
-  height:250px;
-  overflow:scroll;
-	font-size:60px;
-}
-ul li a:hover {
-    float:none;
-    background-color:rgba(255, 105, 180, .7); 
-    }
+
+
+
 ul li ul li {
-    display: block;
+    display: none;
+position:relative;
 }
 ul li:hover ul li {
+z-index:999;
     display: block;
+Position:relative;
+Background-color:rgba(0,255,255,.7);
 }
+ 
+ul li b {
+    text-decoration: none;
+    color: red;
+    display: block;
+   width:400px;
+  height:150px;
+  overflow:scroll;
+	font-size:30px;
+		   }
+
+		   ul li b:hover {
+    float:none;
+    background-color:aqua; 
+    }
 
 body{
 	background-image:url('https://i.pinimg.com/originals/70/f2/4b/70f24bf730ebe14d280148e406e50c6c.jpg');
