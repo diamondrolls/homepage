@@ -96,8 +96,8 @@ width:360px;
 	top:420px;
 	right:5%;
 	border-style:outset;
-	animation:cmoney 1s ;
-        -webkit-animation: cmoney 1s ;/* Safari 4.0 - 8.0 */
+	animation:cmoney 10s infinite ;
+        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
 }
 
 .stocks2{
@@ -111,8 +111,8 @@ width:360px;
 top:760px;
 	left:5%;
 	border-style:outset;
-	animation:cmoney 2s ;
-        -webkit-animation: cmoney 2s ;/* Safari 4.0 - 8.0 */
+	animation:cmoney 10s infinite;
+        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
 }
 
 .stocks3{
@@ -126,8 +126,8 @@ top:760px;
 	top:85%;
 	left:56%;
 	border-style:outset;
-	animation:cmoney 3s ;
-        -webkit-animation: cmoney 3s ;/* Safari 4.0 - 8.0 */
+	animation:cmoney 10s infinite;
+        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
 }
 
 /* Safari 4.0 - 8.0 */
@@ -142,23 +142,6 @@ top:760px;
 
 }
 
-.stocks1:hover {
-	position:relative;
-        background-color:rgba(0, 0, 0,.4); 
-	translate:transform (-50%,-50%);
-    }  
-
-.stocks2:hover {
-	position:relative;
-        background-color:rgba(0, 0, 0,.4); 
-	translate:transform (-50%,-50%);
-    }  
-
-.stocks3:hover {
-	position:relative;
-        background-color:rgba(0, 0, 0,.4); 
-	translate:transform (-50%,-50%);
-    }  
 
 h3{
   color:rgb(255,0,0);
