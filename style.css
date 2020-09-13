@@ -7,22 +7,6 @@
 margin-top:300px;
 }
 
-
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes cmoney{
-  0% { top:-650px;}
-     50% { top:55px;}
-	100% { top:45px;}
-  
-}
-@keyframes  cmoney{
-  0% { top:-650px;}
-     50% { top:55px;}
-	100% { top:45px;}
-
-}
-
 .plane{		
 top:250px;
 left:30%;  
@@ -148,6 +132,18 @@ width:360px;
 	border-style:outset;
 	animation:cmoney 3s ;
         -webkit-animation: cmoney 3s ;/* Safari 4.0 - 8.0 */
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cmoney{
+  0% { transform:rotateY(0deg);}
+	100% { transform:rotateY(360deg);}
+  
+}
+@keyframes  cmoney{
+0% { transform:rotateY(0deg);}
+	100% { transform:rotateY(360deg);}
+
 }
 
 .stocks1:hover {
