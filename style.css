@@ -33,14 +33,7 @@ html {  background-image:url('https://i.pinimg.com/originals/d1/33/48/d13348d7a8
 	overflow:hidden;
 }
 
-.homepage{
-		   borderstyle:outset;
-	width:100px;
-	height:100px;
-	background-image:url('https://i.pinimg.com/originals/35/38/ed/3538edbdb531c7fe3bb387ead4b398b0.png');
-	background-size:100px 100px;
-	 z-index:55;
-		   }
+
 
 
 #left-sidebar{
@@ -199,9 +192,11 @@ ul li:hover ul li {
 }
 
 body{
+	background-image:url('https://i.pinimg.com/originals/70/f2/4b/70f24bf730ebe14d280148e406e50c6c.jpg');
+	background-size:799px 1999px;
         overflow:scroll;   
-	 width:100%;
-	 height:100%;
+	 width:800px;
+	 height:2000px;
 	 		
 
            }
