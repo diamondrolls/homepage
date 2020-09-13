@@ -30,7 +30,7 @@ margin-top:300px;
 html {  background-image:url('https://i.pinimg.com/originals/d1/33/48/d13348d7a8b42622829ade83a8adfb19.jpg');
 	height:100%;
 		width:100%;
-	overflow:hidden;
+	overflow:scroll;
 }
 
 
@@ -194,7 +194,7 @@ ul li:hover ul li {
 body{
 	background-image:url('https://i.pinimg.com/originals/70/f2/4b/70f24bf730ebe14d280148e406e50c6c.jpg');
 	background-size:799px 1999px;
-        overflow:scroll;   
+        overflow:hidden;   
 	 width:800px;
 	 height:2000px;
 	 		
