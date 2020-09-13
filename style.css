@@ -20,10 +20,42 @@ margin-top:300px;
   0% { top:-650px;}
      50% { top:55px;}
 	100% { top:45px;}
-  
-   
-  
+
 }
+
+.plane{		
+top:250px;
+left:30%;  
+position:absolute;
+background-size:500px 270px;	  
+	background-repeat:no-repeat;
+background-image:url("https://i.pinimg.com/originals/5a/d8/13/5ad813ab842ef0eccd20b21e8cfa3a1b.png");
+width:500px;
+height:265px;
+ z-index:3;
+animation:planeflying 7s  ;
+-webkit-animation:planeflying 7s  ;
+}
+
+-@webkit-keyframes planeflying{
+0% {left:30%; top:-350px;}
+25% {left:30%; top:270px;}
+50% {left:30%; top:230px;}
+75% {left:30%; top:270px;}
+90% {left:30%; top:230px;}
+100% {left:30%; top:270;}
+}
+
+@keyframes planeflying{
+0% {left:30%; top:-350px;}
+25% {left:30%; top:270px;}
+50% {left:30%; top:230px;}
+75% {left:30%; top:270px;}
+90% {left:30%; top:230px;}
+100% {left:30%; top:270;}
+}
+
+
 	   .thorshammer{		  
 z-index:999;
 		  position:absolute;	
