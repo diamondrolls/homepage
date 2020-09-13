@@ -25,7 +25,16 @@ margin-top:300px;
   
 }
 
-
+	   .border6{
+	overflow:scroll;
+	width:580px; 
+	height:680px;
+        z-index:-5;
+        background-color:rgba(0,255,100,.6);
+	border-radius:40px;
+	border-style:inset;
+	padding-top:50px;
+} 
 
 html {  background-image:url('https://i.pinimg.com/originals/d1/33/48/d13348d7a8b42622829ade83a8adfb19.jpg');
 	height:100%;
