@@ -102,6 +102,7 @@ width:360px;
         -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
 }
 
+
 .stocks2{
 	border-color:rgb(255, 255, 255);
 	background-color:rgba(0, 0, 0, .5);
@@ -138,6 +139,22 @@ width:360px;
         -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
 }
 
+.music{
+	border-color:rgb(255, 255, 255);
+	background-color:rgba(0, 0, 0, .5);
+        z-index:99;
+	position:absolute;
+	background-image:url('https://i.pinimg.com/236x/ea/75/be/ea75be8ede13d420c4f441968220326d.jpg');
+	background-size:200px 200px;
+	border-radius:50%;
+        height:200px;
+	width:200px;
+	top:1200px;
+	left:15%;
+	border-style:outset;
+	animation:cmoney 10s infinite ;
+        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
+}
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes cmoney{
   0% { transform:rotateY(0deg);}
