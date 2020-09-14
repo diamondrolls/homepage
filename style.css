@@ -3,7 +3,7 @@
         width:98%;
 	height:1000px;
 	position:relative;
-	overflow:scroll;
+	overflow:hidden;
 	z-index:3;
 }
 .plane{		
