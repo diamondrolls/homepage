@@ -32,6 +32,86 @@ animation:planeflying 7s  ;
 100% {left:30%; top:200;}
 }
 
+.plane2{
+	
+        z-index:3;
+	position:absolute;
+	background-image:url('https://i.pinimg.com/originals/6d/55/cb/6d55cbbcf1e7a742f61d9278fb710456.png');
+	background-size:175px 75px;
+        height:75px;
+	width:175px;
+	top:200px;
+	animation:lit 3s infinite ;
+        -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
+}
+
+
+
+.plane3{
+	
+        z-index:2;
+	position:absolute;
+	background-image:url('https://i.pinimg.com/originals/f2/a8/6f/f2a86fe6bae81f276b220c76fff072ec.png');
+	background-size:175px 75px;
+        height:75px;
+	width:175px;
+	top:450px;
+	animation:money 7s infinite ;
+        -webkit-animation: money 7s infinite;/* Safari 4.0 - 8.0 */
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes lit{
+ 0% { left:-1200px;}
+	100% { left:2500px;}
+  
+}
+@keyframes  lit{
+0% { left:-1200px;}
+	100% { left:2500px;}
+
+}
+
+
+.plane4{
+	 z-index:4;
+	position:absolute;
+	background-image:url('https://i.pinimg.com/originals/70/a2/07/70a207ca8950f441ed0c2261a7829808.png');
+	background-size:175px 75px;
+        height:75px;
+	width:175px;
+	top:500px;
+	animation:lit 6s infinite ;
+        -webkit-animation: lit 6s infinite;/* Safari 4.0 - 8.0 */
+}
+
+
+
+.plane5{
+	 z-index:5;
+	position:absolute;
+	background-image:url('https://i.pinimg.com/originals/da/dc/6c/dadc6c53be020be67fe094bed3f9223d.png');
+	background-size:175px 75px;
+        height:75px;
+	width:175px;
+	top:700px;
+	animation:money 3s infinite ;
+        -webkit-animation: money 3s infinite;/* Safari 4.0 - 8.0 */
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes money{
+  0% { right:-1200px;}
+	100% { right:2500px;}
+  
+}
+@keyframes  money{
+  0% { right:-1200px;}
+	100% { right:2500px;}
+
+}
 
 	   .thorshammer{		  
 z-index:999;
