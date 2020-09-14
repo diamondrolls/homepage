@@ -34,7 +34,6 @@ animation:planeflying 7s  ;
 
 .plane2{
 	
-        z-index:3;
 	position:absolute;
 	background-image:url('https://i.pinimg.com/originals/6d/55/cb/6d55cbbcf1e7a742f61d9278fb710456.png');
 	background-size:175px 75px;
@@ -49,7 +48,6 @@ animation:planeflying 7s  ;
 
 .plane3{
 	
-        z-index:2;
 	position:absolute;
 	background-image:url('https://i.pinimg.com/originals/f2/a8/6f/f2a86fe6bae81f276b220c76fff072ec.png');
 	background-size:175px 75px;
@@ -75,7 +73,6 @@ animation:planeflying 7s  ;
 
 
 .plane4{
-	 z-index:4;
 	position:absolute;
 	background-image:url('https://i.pinimg.com/originals/70/a2/07/70a207ca8950f441ed0c2261a7829808.png');
 	background-size:175px 75px;
@@ -89,7 +86,6 @@ animation:planeflying 7s  ;
 
 
 .plane5{
-	 z-index:5;
 	position:absolute;
 	background-image:url('https://i.pinimg.com/originals/da/dc/6c/dadc6c53be020be67fe094bed3f9223d.png');
 	background-size:175px 75px;
