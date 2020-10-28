@@ -10,9 +10,9 @@
 top:250px;
 left:30%;  
 position:absolute;
-background-size:500px 270px;	  
-	background-repeat:no-repeat;
-background-image:url("https://i.pinimg.com/originals/5a/d8/13/5ad813ab842ef0eccd20b21e8cfa3a1b.png");
+border-color:rgb(0,255,255);
+	border-style:solid;
+	border-width:thick;
 width:550px;
 height:275px;
  z-index:1300;
