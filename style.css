@@ -22,20 +22,21 @@ animation:planeflying 7s  ;
 
 -@webkit-keyframes planeflying{
 0% {left:30%; top:-350px;}
-25% {left:30%; top:270px;}
-50% {left:30%; top:230px;}
-75% {left:30%; top:270px;}
-90% {left:30%; top:230px;}
-100% {left:30%; top:100px;}
+25% {left:30%; top:170px;}
+50% {left:30%; top:30px;}
+75% {left:30%; top:170px;}
+90% {left:30%; top:130px;}
+100% {left:30%; top:50px;}
 }
 
 @keyframes planeflying{
 0% {left:30%; top:-350px;}
-25% {left:30%; top:270px;}
-50% {left:30%; top:230px;}
-75% {left:30%; top:270px;}
-90% {left:30%; top:230px;}
-100% {left:30%; top:100px;}
+25% {left:30%; top:170px;}
+50% {left:30%; top:30px;}
+75% {left:30%; top:170px;}
+90% {left:30%; top:130px;}
+100% {left:30%; top:50px;}
+
 }
 
 .plane2{
