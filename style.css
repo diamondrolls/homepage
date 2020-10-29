@@ -7,7 +7,7 @@
 	z-index:3;
 }
 .plane{		
-top:250px;
+top:1%;
 left:30%;  
 position:absolute;
 border-color:rgb(0,255,255);
@@ -26,7 +26,7 @@ animation:planeflying 7s  ;
 50% {left:30%; top:230px;}
 75% {left:30%; top:270px;}
 90% {left:30%; top:230px;}
-100% {left:30%; top:200;}
+100% {left:30%; top:100px;}
 }
 
 @keyframes planeflying{
@@ -35,7 +35,7 @@ animation:planeflying 7s  ;
 50% {left:30%; top:230px;}
 75% {left:30%; top:270px;}
 90% {left:30%; top:230px;}
-100% {left:30%; top:200;}
+100% {left:30%; top:100px;}
 }
 
 .plane2{
