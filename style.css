@@ -8,7 +8,6 @@
 }
 .plane{		
 top:1%;
-left:30%;  
 position:absolute;
 border-color:rgb(0,255,255);
 	border-style:solid;
@@ -21,22 +20,22 @@ animation:planeflying 7s  ;
 }
 
 -@webkit-keyframes planeflying{
-0% {left:30%; top:-350px;}
-25% {left:30%; top:170px;}
-50% {left:30%; top:30px;}
-75% {left:30%; top:170px;}
-90% {left:30%; top:130px;}
-100% {left:30%; top:50px;}
+0% {top:-350px;}
+25% { top:170px;}
+50% {top:30px;}
+75% { top:170px;}
+90% {top:130px;}
+100% {top:50px;}
 }
 
 @keyframes planeflying{
-0% {left:30%; top:-350px;}
-25% {left:30%; top:170px;}
-50% {left:30%; top:30px;}
-75% {left:30%; top:170px;}
-90% {left:30%; top:130px;}
-100% {left:30%; top:50px;}
 
+0% {top:-350px;}
+25% { top:170px;}
+50% {top:30px;}
+75% { top:170px;}
+90% {top:130px;}
+100% {top:50px;}
 }
 
 .plane2{
