@@ -9,9 +9,6 @@
 .plane{	
 	z-index:90;
 position:absolute;
-border-color:rgb(0,255,255);
-	border-style:solid;
-	border-width:thick;
 width:799px;
 height:1099px;
 
@@ -30,7 +27,7 @@ height:1099px;
 }
 
 .Ambassador{
-border-color:rgb(255, 255, 255);
+border-color:rgb(0, 255, 255);
 	z-index:99;
 	position:absolute;
 	border-radius:50px;
@@ -39,7 +36,8 @@ border-color:rgb(255, 255, 255);
 	border-radius:50%;
         height:360px;
 	width:360px;
-	border-style:outset;
+        border-width:thick;
+	border-style:solid;
 	animation:cmoney 10s infinite;
         -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
 }
