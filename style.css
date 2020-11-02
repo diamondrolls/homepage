@@ -176,8 +176,8 @@ width:360px;
 	border-radius:50%;
         height:200px;
 	width:200px;
-	top:420px;
-	left:5%;
+	top:20px;
+	left:90%;
 	border-style:outset;
 	animation:cmoney 10s infinite ;
         -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
@@ -195,8 +195,8 @@ width:360px;
 	border-radius:50%;
         height:200px;
 	width:200px;
-        top:760px;
-	left:5%;
+       top:200px;
+	left:80%;
 	border-style:outset;
 	animation:cmoney 10s infinite;
         -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
@@ -213,8 +213,8 @@ width:360px;
 	border-radius:50%;
         height:200px;
 	width:200px;
-	top:1300px;
-	left:56%;
+	top:400px;
+	left:70%;
 	border-style:outset;
 	animation:cmoney 10s infinite;
         -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
