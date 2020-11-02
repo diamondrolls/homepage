@@ -6,8 +6,9 @@
 	overflow:hidden;
 	z-index:3;
 }
-.plane{		
-position:absolute;
+.plane{	
+	z-index:333;
+position:relative;
 border-color:rgb(0,255,255);
 	border-style:solid;
 	border-width:thick;
@@ -31,7 +32,7 @@ height:650px;
 }
 
 .Ambassador{
-	left:50%;
+	left:60%;
 border-color:rgb(255, 255, 255);
 	z-index:99;
 	position:absolute;
