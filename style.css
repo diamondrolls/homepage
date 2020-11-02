@@ -7,7 +7,6 @@
 	z-index:3;
 }
 .plane{		
-top:1%;
 position:absolute;
 border-color:rgb(0,255,255);
 	border-style:solid;
@@ -17,28 +16,6 @@ background-image:url('https://i.pinimg.com/originals/2c/c7/b2/2cc7b28406fed947d9
 background-repeat:no-repeat;
 width:650px;
 height:650px;
- z-index:1300;
-animation:planeflying 7s  ;
--webkit-animation:planeflying 7s  ;
-}
-
--@webkit-keyframes planeflying{
-0% {top:-350px;}
-25% { top:170px;}
-50% {top:30px;}
-75% { top:170px;}
-90% {top:130px;}
-100% {top:50px;}
-}
-
-@keyframes planeflying{
-
-0% {top:-350px;}
-25% { top:170px;}
-50% {top:30px;}
-75% { top:170px;}
-90% {top:130px;}
-100% {top:50px;}
 }
 
 .plane2{
@@ -54,15 +31,21 @@ animation:planeflying 7s  ;
 }
 
 .Ambassador{
-	
-	position:relative;
-	background-image:url('https://i.pinimg.com/originals/6d/55/cb/6d55cbbcf1e7a742f61d9278fb710456.png');
-	background-size:175px 75px;
-        height:75px;
-	width:175px;
-	top:200px;
-	animation:lit 3s infinite ;
-        -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
+	left:400px;
+border-color:rgb(255, 255, 255);
+	z-index:99;
+	position:absolute;
+	border-radius:50px;
+        background-image:url('https://i.pinimg.com/originals/10/d6/30/10d6300b74ceb44a5d7a5471f533a28b.jpg');
+	background-size:360px 360px;
+	border-radius:50%;
+        height:200px;
+	width:200px;
+	border-style:outset;
+	animation:cmoney 10s infinite;
+        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
+}
+
 }
 
 .plane3{
