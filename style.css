@@ -8,7 +8,7 @@
 }
 .plane{	
 	z-index:333;
-position:absolute;
+position:relative;
 border-color:rgb(0,255,255);
 	border-style:solid;
 	border-width:thick;
