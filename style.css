@@ -298,7 +298,7 @@ background-color:rgb(0,0,0);
 		  
 		   ul {
 	   top:15%;
-	left:15%;
+         float:left;
        list-style: none;
         position:absolute;
 	z-index:30;
