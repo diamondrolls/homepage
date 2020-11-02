@@ -31,7 +31,7 @@ height:650px;
 }
 
 .Ambassador{
-	left:20%;
+	left:50%;
 border-color:rgb(255, 255, 255);
 	z-index:99;
 	position:absolute;
@@ -171,7 +171,7 @@ width:360px;
         height:200px;
 	width:200px;
 	top:420px;
-	right:5%;
+	left:5%;
 	border-style:outset;
 	animation:cmoney 10s infinite ;
         -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
