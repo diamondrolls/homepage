@@ -296,23 +296,40 @@ background-color:rgb(0,0,0);
 }
 
 
-		  ul {
-       margin:0px;
-       padding:0px;
+		  
+		   ul {
+	   top:25%;
+	left:15%;
        list-style: none;
-        position:relative;
+        position:fixed;
+	z-index:30;
     }
-		   
+
 ul li {
-Position:relative;
-     width:100px; 
-	height:100px;
+position:relative;
+     width:1px; 
+	height:1px;
     font-size:20px;
     font-family: ariel;
-    Text-align:center;
+    text-align:center;
     }
 
 
+.lied{
+      text-decoration: none;
+    color: red;
+    display: block;
+   width:400px;
+  height:150px;
+  overflow:scroll;
+	font-size:30px;
+
+}
+
+.lied:hover {
+    float:none;
+    background-color:aqua; 
+    }
 
 ul li ul li {
     display: none;
@@ -322,23 +339,8 @@ ul li:hover ul li {
 z-index:999;
     display: block;
 Position:relative;
-Background-color:rgba(0,255,255,.7);
+right:10px;
 }
- 
-ul li b {
-    text-decoration: none;
-    color: red;
-    display: block;
-   width:400px;
-  height:150px;
-  overflow:scroll;
-	font-size:30px;
-		   }
-
-		   ul li b:hover {
-    float:none;
-    background-color:aqua; 
-    }
 
 body{
 	background-image:url('https://i.pinimg.com/originals/70/f2/4b/70f24bf730ebe14d280148e406e50c6c.jpg');
