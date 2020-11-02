@@ -53,7 +53,17 @@ animation:planeflying 7s  ;
         -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
 }
 
-
+.Ambassador{
+	
+	position:relative;
+	background-image:url('https://i.pinimg.com/originals/6d/55/cb/6d55cbbcf1e7a742f61d9278fb710456.png');
+	background-size:175px 75px;
+        height:75px;
+	width:175px;
+	top:200px;
+	animation:lit 3s infinite ;
+        -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
+}
 
 .plane3{
 	
