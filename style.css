@@ -177,8 +177,8 @@ width:360px;
 	top:20px;
 	left:75%;
 	border-style:outset;
-	animation:cmoney 10s infinite ;
-        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
+	animation:cmoney 10s ;
+        -webkit-animation: cmoney 10s;/* Safari 4.0 - 8.0 */
 }
 
 
@@ -196,8 +196,8 @@ width:360px;
        top:200px;
 	left:55%;
 	border-style:outset;
-	animation:cmoney 10s infinite;
-        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
+	animation:cmoney 10s;
+        -webkit-animation: cmoney 10s;/* Safari 4.0 - 8.0 */
 }
 
 .stocks3{
@@ -214,8 +214,8 @@ width:360px;
 	top:400px;
 	left:35%;
 	border-style:outset;
-	animation:cmoney 10s infinite;
-        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
+	animation:cmoney 10s;
+        -webkit-animation: cmoney 10s;/* Safari 4.0 - 8.0 */
 }
 
 .music{
@@ -231,8 +231,8 @@ width:360px;
 	top:600px;
 	left:15%;
 	border-style:outset;
-	animation:cmoney 10s infinite ;
-        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
+	animation:cmoney 10s ;
+        -webkit-animation: cmoney 10s;/* Safari 4.0 - 8.0 */
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes cmoney{
