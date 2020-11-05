@@ -38,9 +38,7 @@ border-color:rgb(0, 255, 255);
 	width:360px;
         border-width:thick;
 	border-style:solid;
-	animation:cmoney 10s infinite;
-        -webkit-animation: cmoney 10s infinite;/* Safari 4.0 - 8.0 */
-}
+	}
 
 .ikeannaoptions{
 	position:relative;
