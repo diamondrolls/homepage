@@ -57,8 +57,8 @@ border-color:rgb(0, 255, 255);
         height:75px;
 	width:175px;
 	top:450px;
-	animation:money 7s infinite ;
-        -webkit-animation: money 7s infinite;/* Safari 4.0 - 8.0 */
+	animation:money 2s infinite ;
+        -webkit-animation: money 2s infinite;/* Safari 4.0 - 8.0 */
 }
 
 
@@ -82,8 +82,8 @@ border-color:rgb(0, 255, 255);
         height:75px;
 	width:175px;
 	top:500px;
-	animation:lit 6s infinite ;
-        -webkit-animation: lit 6s infinite;/* Safari 4.0 - 8.0 */
+	animation:lit 3s infinite ;
+        -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
 }
 
 
