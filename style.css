@@ -82,8 +82,8 @@ border-color:rgb(0, 255, 255);
         height:75px;
 	width:175px;
 	top:500px;
-	animation:lit 3s infinite ;
-        -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
+	animation:lit 2.5s infinite ;
+        -webkit-animation: lit 2.5s infinite;/* Safari 4.0 - 8.0 */
 }
 
 
