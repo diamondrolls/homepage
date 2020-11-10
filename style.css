@@ -217,7 +217,7 @@ width:360px;
 
 .music{
 	border-color:rgb(255, 255, 255);
-	background-color:rgba(0, 0, 0, .5);
+	background-color:rgba(0, 255, 255);
         z-index:99;
 	position:absolute;
 	background-image:url('https://i.pinimg.com/originals/97/5b/fc/975bfc4d2cb51034ac290903ea800727.png');
