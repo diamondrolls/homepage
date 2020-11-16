@@ -44,9 +44,10 @@ border-color:rgb(0, 255, 255);
 	border-radius:50px;
         height:100px;
 	width:300px;
+	background-color:rgb(0,0,0);
 	border-style:outset;
-	       border-color:rgba(0, 355, 355);
-          float:right;
+	border-color:rgba(0, 355, 355);
+          left:65%;
 }
 
 .plane3{
