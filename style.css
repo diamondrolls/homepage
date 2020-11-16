@@ -46,7 +46,7 @@ border-color:rgb(0, 255, 255);
 	width:300px;
 	border-style:outset;
 	       border-color:rgba(0, 355, 355);
-
+          float:right;
 }
 
 .plane3{
