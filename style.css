@@ -39,16 +39,6 @@ border-color:rgb(0, 255, 255);
 	border-style:solid;
        }
 
-.ikeannaoptions{
-	position:relative;
-	border-radius:50px;
-        height:100px;
-	width:300px;
-	background-color:rgb(0,0,0);
-	border-style:outset;
-	border-color:rgba(0, 355, 355);
-          left:65%;
-}
 
 .plane3{
 	
@@ -161,6 +151,19 @@ html {  background-image:url('https://i.pinimg.com/originals/d1/33/48/d13348d7a8
 width:360px;
 	height:600px;
 }
+
+.ikeannaoptions{
+	position:absolute;
+	border-radius:50px;
+        height:100px;
+	width:300px;
+	background-color:rgb(0,0,0);
+	border-style:outset;
+	border-color:rgba(0, 355, 355);
+          left:65%;
+}
+
+
 
 .stocks1{
 	border-color:rgb(255, 255, 255);
