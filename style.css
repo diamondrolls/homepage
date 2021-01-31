@@ -45,8 +45,8 @@ border-color:rgb(0, 255, 255);
 	position:relative;
 	background-image:url('https://i.pinimg.com/originals/f2/a8/6f/f2a86fe6bae81f276b220c76fff072ec.png');
 	background-size:215px 105px;
-        height:75px;
-	width:175px;
+        height:105px;
+	width:215px;
 	top:450px;
 	animation:money 2s infinite ;
         -webkit-animation: money 2s infinite;/* Safari 4.0 - 8.0 */
@@ -70,8 +70,8 @@ border-color:rgb(0, 255, 255);
 	position:relative;
 	background-image:url('https://i.pinimg.com/originals/70/a2/07/70a207ca8950f441ed0c2261a7829808.png');
 	background-size:315px 205px;
-        height:75px;
-	width:175px;
+        height:205px;
+	width:315px;
 	top:500px;
 	animation:lit 2.5s infinite ;
         -webkit-animation: lit 2.5s infinite;/* Safari 4.0 - 8.0 */
@@ -83,8 +83,8 @@ border-color:rgb(0, 255, 255);
 	position:relative;
 	background-image:url('https://i.pinimg.com/originals/da/dc/6c/dadc6c53be020be67fe094bed3f9223d.png');
 	background-size:515px 405px;
-        height:105px;
-	width:215px;
+        height:405px;
+	width:515px;
 	top:700px;
 	animation:money 3s infinite ;
         -webkit-animation: money 3s infinite;/* Safari 4.0 - 8.0 */
