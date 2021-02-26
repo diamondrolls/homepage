@@ -16,14 +16,13 @@ height:1099px;
 
 .headerimage{
 background-image:url("https://i.pinimg.com/originals/b6/e0/e4/b6e0e4a3820008d80cb023effd466e40.jpg");
-background-size:800px 600px;
-margin-left:200px;
+background-size:900px 600px;
 border-style:outset;
 border-color:rgb(0,255,0);
 border-radius:40px;
 position:absolute;
 height:600px;
-width:800px;
+width:900px;
 top:45%;
 }
 .plane2{
