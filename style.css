@@ -6,23 +6,18 @@
 	overflow:hidden;
 	z-index:3;
 }
-.plane{	
-	z-index:90;
-position:absolute;
-width:799px;
-height:1099px;
 
-}
 
 	   .registration{
 	border-color:rgb(0, 255, 255);
 	background-color:rgb(255, 209, 94);
         z-index:99;
-	position:relative;
+	position:absolute;
 	border-radius:50px;
         height:700px;
 	width:700px;
 	border-style:outset;
+		   top:25%;
 }
 		   
 		   .registrationbutton{
@@ -60,18 +55,7 @@ top:45%;
         -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
 }
 
-.Ambassador{
-border-color:rgb(0, 255, 255);
-	z-index:99;
-	position:absolute;
-	border-radius:50px;
-        overflow:hidden;
-	border-radius:50%;
-        height:360px;
-	width:360px;
-        border-width:thick;
-	border-style:solid;
-       }
+
 
 
 .plane3{
@@ -195,8 +179,7 @@ width:360px;
 	border-style:outset;
 	border-color:rgba(0, 355, 355);
         z-index:99;
-	top:600px;
-	left:15%;
+	
 }
 
 
