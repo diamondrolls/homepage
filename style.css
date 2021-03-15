@@ -276,18 +276,40 @@ h9{
 }
 
 
-  .neon
+.neon
 {
-		left:5%;
- position:relative;
+  position:absolute;
   top:10%;
-	z-index:78;
-	font-weight: bold;
-	font-size:50px;
-	color:rgb(0,255,255);
+  left:25%;
+	translate:transform (-50%,-50%);
+	margin:0;
+	padding:0 20px;
+	font-size:45px;
+	color:#34ccff;
 	text-shadow:0 0 20px;
 }
-
+.neon:after
+{
+	top:0;
+	left:0;
+	content:attr(data-text);
+	position:absolute;
+	padding:0 0 20px;
+	z-index:-1;
+	color:#34ccff;
+	filter:blur(15px);
+}
+.neon:before
+{
+	content:" ";
+	top:0;
+	left:0;
+	position:absolute;
+	background:#34ccff;
+	z-index:-3;
+	opacity:.5;
+	filter:blur(40px);
+}
 h7{
 background-color:rgb(0,0,0);
 }
