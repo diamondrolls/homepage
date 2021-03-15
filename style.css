@@ -179,28 +179,9 @@ width:360px;
 	border-style:outset;
 	border-color:rgba(0, 355, 355);
         z-index:99;
+	float:right;
 	
 }
-
-
-
-.stocks1{
-	border-color:rgb(255, 255, 255);
-	background-color:rgba(0, 0, 0, .5);
-        z-index:99;
-	position:absolute;
-	background-image:url('https://i.pinimg.com/564x/5a/37/45/5a3745c212fc8c47e7e09cb63ec9e9ce.jpg');
-	background-size:200px 200px;
-	border-radius:50%;
-        height:200px;
-	width:200px;
-	top:20px;
-	left:75%;
-	border-style:outset;
-	animation:cmoney 10s ;
-        -webkit-animation: cmoney 10s;/* Safari 4.0 - 8.0 */
-}
-
 
 .stocks2{
 	border-color:rgb(255, 255, 255);
@@ -212,9 +193,8 @@ width:360px;
 	background-size:200px 200px;
 	border-radius:50%;
         height:200px;
+	float:left;
 	width:200px;
-       top:200px;
-	left:55%;
 	border-style:outset;
 	animation:cmoney 10s;
         -webkit-animation: cmoney 10s;/* Safari 4.0 - 8.0 */
