@@ -28,7 +28,7 @@ position:absolute;
         height:500px;
 	width:700px;
        }
-100% { top:700px
+100% { top:700px;
         left:700px;
            background-size:75px 25px;
         height:25px;
@@ -43,7 +43,7 @@ position:absolute;
         height:500px;
 	width:700px;
        }
-100% { top:700px
+100% { top:700px;
         left:700px;
            background-size:75px 25px;
         height:25px;
