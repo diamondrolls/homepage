@@ -8,7 +8,14 @@
 }
 
 
-	 
+	.plain { background-image:url("https://www.google.com/search?rlz=1CDGOYI_enUS1034US1034&hl=en-US&sxsrf=AJOqlzW3pzTFiwouvYnSgn4IoGujBMIp7A:1673763306615&q=png+lightning+gif&tbm=isch&sa=X&ved=2ahUKEwjFt9Ca9sj8AhUmUjABHUWTDuIQ0pQJegQIFxAB&biw=390&bih=669&dpr=3#imgrc=ZyIEcSIr32OfGM");
+            position:relative;
+      z-index:500;
+	background-size:100% 100%;
+        height: 100%;
+	width: 100%;
+
+            }
 .plane1{
 background-image:url('https://raw.githubusercontent.com/diamondrolls/homepage/master/images/BE91112E-51DA-42F5-901F-7B24B8A54C08.png');
 position:absolute;
