@@ -45,27 +45,42 @@ top:45%;
 }
 
 .plane1{
-background-image:url(' https://raw.githubusercontent.com/diamondrolls/play/master/images/B0D14D54-0145-481C-BDD9-E92253BBF81E.png');
+background-image:url('https://raw.githubusercontent.com/diamondrolls/homepage/master/images/BE91112E-51DA-42F5-901F-7B24B8A54C08.png');
 position:absolute;
-      z-index:709;
-	background-size:375px 375px;
-        height:375px;
+      z-index:509;
+	background-size:375px 175px;
+        height:175px;
 	width:375px;
-	left:200px;
-	top:300px;
-	animation: kitty 5s infinite alternate;
-        -webkit-animation: kitty 5s infinite alternate;
+	left:600px;
+	top:600px;
+	animation: kitty 7s infinite alternate;
+        -webkit-animation: kitty 7s infinite alternate;
 } 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
- 0% { top:300px;}
-	100% { top:700px;}
-  
+ 0% { background-size:375px 175px;
+        height:175px;
+	width:375px;
+	left:600px;
+	top:600px;}
+100% { background-size:775px 575px;
+        height:575px;
+	width:575px;
+	left:100px;
+	top:100px;}
 }
-@keyframes  kitty{
-0% { top:300px;}
-	100% { top:700px;}
 
+@keyframes  kitty{
+0% { background-size:375px 175px;
+        height:175px;
+	width:375px;
+	left:600px;
+	top:600px;}
+100% { background-size:775px 575px;
+        height:575px;
+	width:575px;
+	left:100px;
+	top:100px;}
 }
 
 .plane2{
