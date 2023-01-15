@@ -8,7 +8,8 @@
 }
 
 
-	.plain { background-image:url(" https://media.tenor.com/qe0yvYn14jUAAAAM/loop-hyper.gif");
+	.plain {	
+background-image:url(' https://raw.githubusercontent.com/diamondrolls/images/main/B5F60EAD-E37B-4236-A2F1-6241EE051639.png');
             position:absolute;
       z-index:500;
 	background-size:100% 100%;
@@ -230,8 +231,8 @@ height:99%;
 Position:relative;
 }
 
-body{
-	background-image:url(' https://raw.githubusercontent.com/diamondrolls/images/main/B5F60EAD-E37B-4236-A2F1-6241EE051639.png');
+body{   background-image:url(" https://media.tenor.com/qe0yvYn14jUAAAAM/loop-hyper.gif");
+
 	background-size:100% 1200px;
         overflow:hidden;   
 	 width:100%;
