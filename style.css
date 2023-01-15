@@ -74,20 +74,24 @@ position:absolute;
 	width:35px;
 	top:200px;
 	top:450px;
-	animation:money 2s infinite ;
-        -webkit-animation: money 2s infinite;/* Safari 4.0 - 8.0 */
+	animation:money 12s infinite ;
+        -webkit-animation: money 12s infinite;/* Safari 4.0 - 8.0 */
 }
 
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes money{
- 0% { left:-1200px;}
-	100% { left:2500px;}
+ 0% { left:-1200px;
+      opacity:.5;}
+	100% { left:2500px;
+               opacity:1;}
   
 }
 @keyframes  money{
-0% { left:-1200px;}
-	100% { left:2500px;}
+      0% { left:-1200px;
+      opacity:.5;}
+	100% { left:2500px;
+               opacity:1;}
 
 }
 
@@ -102,8 +106,8 @@ position:absolute;
 	width:75px;
 	top:200px;
 	top:500px;
-	animation:money 2.5s infinite ;
-        -webkit-animation: money 2.5s infinite;/* Safari 4.0 - 8.0 */
+	animation:money 20s infinite ;
+        -webkit-animation: money 20s infinite;/* Safari 4.0 - 8.0 */
 }
 
 
@@ -118,8 +122,8 @@ position:absolute;
 	width:15px;
 	top:200px;
 	top:700px;
-	animation:money 3s infinite ;
-        -webkit-animation: money 3s infinite;/* Safari 4.0 - 8.0 */
+	animation:money 13s infinite ;
+        -webkit-animation: money 13s infinite;/* Safari 4.0 - 8.0 */
 }
 
 	  
