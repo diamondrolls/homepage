@@ -53,8 +53,8 @@ position:absolute;
 	width:75px;
 	left:700px;
 	top:600px;
-	animation: kitty 7s infinite alternate;
-        -webkit-animation: kitty 7s infinite alternate;
+	animation: kitty 15s infinite alternate;
+        -webkit-animation: kitty 15s infinite alternate;
 } 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
