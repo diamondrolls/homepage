@@ -78,12 +78,12 @@ position:absolute;
 
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes lit{
+@-webkit-keyframes money{
  0% { left:-1200px;}
 	100% { left:2500px;}
   
 }
-@keyframes  lit{
+@keyframes  money{
 0% { left:-1200px;}
 	100% { left:2500px;}
 
@@ -118,19 +118,6 @@ position:absolute;
 	top:700px;
 	animation:money 3s infinite ;
         -webkit-animation: money 3s infinite;/* Safari 4.0 - 8.0 */
-}
-
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes money{
-  0% { right:-1200px;}
-	100% { right:2500px;}
-  
-}
-@keyframes  money{
-  0% { right:-1200px;}
-	100% { right:2500px;}
-
 }
 
 	  
