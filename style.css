@@ -48,9 +48,9 @@ top:45%;
 background-image:url(' https://raw.githubusercontent.com/diamondrolls/play/master/images/B0D14D54-0145-481C-BDD9-E92253BBF81E.png');
 position:absolute;
       z-index:709;
-	background-size:775px 775px;
-        height:775px;
-	width:775px;
+	background-size:375px 375px;
+        height:375px;
+	width:375px;
 	left:100px;
 	top:300px;
 	animation: kitty 5s infinite alternate;
@@ -64,7 +64,7 @@ position:absolute;
 }
 @keyframes  kitty{
 0% { top:300px;}
-	100% { left:700px;}
+	100% { top:700px;}
 
 }
 
