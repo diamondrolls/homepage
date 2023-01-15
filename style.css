@@ -45,16 +45,24 @@ top:45%;
 }
 
 .plane1{
-background-image:url(' https://github.com/diamondrolls/play/blob/fcfb98dccd8e7df311208c9f082be1302c36f9a9/images/830C3E8E-D029-4639-B49E-2B3BB8C630D7.jpeg');
+background-image:url(' https://github.com/diamondrolls/play/B0D14D54-0145-481C-BDD9-E92253BBF81E.png');
 position:relative;
 	background-size:175px 75px;
         height:75px;
 	width:175px;
-	top:200px;
-	animation:lit 3s infinite ;
-        -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
+	top:300px;
+	animation: kitty 5s infinite alternate;
+        -webkit-animation: kitty 5s infinite alternate;
+} 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes kitty{
+ 0% { top:300px;}
+	100% { top:700px;}
+  
 }
-
+@keyframes  kitty{
+0% { top:300px;}
+	100% { left:700px;}
 
 }
 
