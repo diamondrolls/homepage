@@ -36,7 +36,8 @@ position:absolute;
           }
 }
 
-@keyframe top:200px;
+@keyframes kitty{ 
+0%  { top:200px;
        left:100px;
        background-size:700px 500px;
         height:500px;
