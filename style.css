@@ -8,42 +8,7 @@
 }
 
 
-	   .registration{
-	border-color:rgb(0, 255, 255);
-	background-color:rgb(255, 209, 94);
-        z-index:99;
-	position:absolute;
-	border-radius:50px;
-        height:700px;
-	width:700px;
-	border-style:outset;
-		   top:25%;
-}
-		   
-		   .registrationbutton{
-background-color:rgba(0, 0, 0);
-	background-size:300px 150px;      
-	  z-index:99;
-	position:relative;
-	border-radius:50px;
-        height:150px;
-	width:300px;
-	border-style:outset;
-}
-
-.headerimage{
-background-image:url("https://i.pinimg.com/originals/b6/e0/e4/b6e0e4a3820008d80cb023effd466e40.jpg");
-background-size:900px 600px;
-border-style:outset;
-border-color:rgb(0,255,0);
-border-radius:40px;
-position:absolute;
-height:600px;
-width:900px;
-z-index:79;
-top:45%;
-}
-
+	 
 .plane1{
 background-image:url('https://raw.githubusercontent.com/diamondrolls/homepage/master/images/BE91112E-51DA-42F5-901F-7B24B8A54C08.png');
 position:absolute;
@@ -164,102 +129,13 @@ position:absolute;
 
 }
 
-	   .thorshammer{		  
-z-index:999;
-		  position:absolute;	
-width:75px;
-   height:75px;
-background-color:rgb(222,137,240);
-right:6%;
-background-image:url('https://i.pinimg.com/originals/32/e3/b5/32e3b500464be6825895808149cc1ae6.png');
-	background-size:75px 75px;
-	background-repeat:no-repeat;
-	border-radius:50%;
-	border-color:rgb(0,255,255);
-	border-style:outset;
-		   } 
 	  
-.border6{
-	overflow:scroll;
-	width:580px; 
-	height:680px;
-        z-index:-5;
-        background-color:rgba(0,255,100,.6);
-	border-radius:40px;
-	border-style:inset;
-	padding-top:50px;
-} 
-
 html {
 	height:1200px;
 		width:100%;
 	overflow:scroll;
 }
 
-#left-sidebar{
-  float:left;
-  width:430px;
-	padding-top:5px;
-	
-}
-#right-sidebar{
-  float:right;
-  width:401px;
-	
-}
-
-.membershiparea{
-width:360px;
-	height:600px;
-}
-
-.ikeannaoptions{
-	position:absolute;
-	border-radius:50px;
-        height:100px;
-	width:300px;
-	background-color:rgb(0,0,0);
-	border-style:outset;
-	border-color:rgba(0, 355, 355);
-        z-index:99;
-	float:right;
-	
-}
-
-.stocks2{
-	border-color:rgb(255, 255, 255);
-	background-color:rgba(0, 0, 0, .5);
-	z-index:99;
-	position:absolute;
-	border-radius:50px;
-        background-image:url('https://i.pinimg.com/564x/3a/b1/f5/3ab1f588bd99dd729fa921b5b6fdb6cc.jpg');
-	background-size:200px 200px;
-	border-radius:50%;
-        height:200px;
-	float:left;
-	width:200px;
-	border-style:outset;
-	animation:cmoney 10s;
-        -webkit-animation: cmoney 10s;/* Safari 4.0 - 8.0 */
-}
-
-
-
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes cmoney{
-  0% { transform:rotateY(0deg);}
-	100% { transform:rotateY(360deg);}
-  
-}
-@keyframes  cmoney{
-0% { transform:rotateY(0deg);}
-	100% { transform:rotateY(360deg);}
-
-}
-
-
-h3{
   color:rgb(255,0,0);
   font-size:50px;
 	background-color:rgb(225, 225, 225);
@@ -320,13 +196,6 @@ h7{
 background-color:rgb(0,0,0);
 }
 
-.withlove{
-	width:100%;
-	height:650px;
-  position:relative;
-}
-
-
 		  
 		   ul {
 	   top:15%;
@@ -343,17 +212,6 @@ position:relative;
     text-align:center;
     }
 
-
-.lied{
-      text-decoration: none;
-    color: red;
-    display: block;
-   width:400px;
-  height:150px;
-  overflow:scroll;
-	font-size:30px;
-
-}
 
 .lied:hover {
     float:none;
@@ -381,14 +239,3 @@ body{
 	 		
 
            }
-.love2{ 
-position:relative;
-z-index:2;
-	  border-radius:40px;
-	          overflow:scroll;   
-	border-style:inset;
-  height:900px;
-  width:800px;
-background-color:rgb(0,255,255);
-border-color:rgb(0,255,255);
-}
