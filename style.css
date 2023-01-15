@@ -49,9 +49,9 @@ background-image:url('https://raw.githubusercontent.com/diamondrolls/homepage/ma
 position:absolute;
       z-index:509;
 	background-size:375px 175px;
-        height:175px;
-	width:375px;
-	left:600px;
+        height:25px;
+	width:75px;
+	left:700px;
 	top:600px;
 	animation: kitty 7s infinite alternate;
         -webkit-animation: kitty 7s infinite alternate;
@@ -59,26 +59,26 @@ position:absolute;
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
  0% { background-size:375px 175px;
-        height:175px;
-	width:375px;
-	left:600px;
+        height:25px;
+	width:75px;
+	left:700px;
 	top:600px;}
 100% { background-size:775px 575px;
         height:575px;
-	width:575px;
+	width:775px;
 	left:100px;
 	top:100px;}
 }
 
 @keyframes  kitty{
 0% { background-size:375px 175px;
-        height:175px;
-	width:375px;
-	left:600px;
+        height:25px;
+	width:75px;
+	left:700px;
 	top:600px;}
 100% { background-size:775px 575px;
         height:575px;
-	width:575px;
+	width:775px;
 	left:100px;
 	top:100px;}
 }
@@ -86,10 +86,10 @@ position:absolute;
 .plane2{
 	
 	position:relative;
-	background-image:url('https://i.pinimg.com/originals/6d/55/cb/6d55cbbcf1e7a742f61d9278fb710456.png');
-	background-size:175px 75px;
-        height:75px;
-	width:175px;
+	background-color:rgb('255,255,255');
+	background-size:5px 5px;
+        height:5px;
+	width:5px;
 	top:200px;
 	animation:lit 3s infinite ;
         -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
@@ -101,10 +101,10 @@ position:absolute;
 .plane3{
 	
 	position:relative;
-	background-image:url('https://i.pinimg.com/originals/f2/a8/6f/f2a86fe6bae81f276b220c76fff072ec.png');
-	background-size:215px 105px;
-        height:105px;
-	width:215px;
+	background-color:rgb('255,255,255');
+	background-size:5px 5px;
+        height:5px;
+	width:5px;
 	top:450px;
 	animation:money 2s infinite ;
         -webkit-animation: money 2s infinite;/* Safari 4.0 - 8.0 */
@@ -126,10 +126,10 @@ position:absolute;
 
 .plane4{
 	position:relative;
-	background-image:url('https://i.pinimg.com/originals/70/a2/07/70a207ca8950f441ed0c2261a7829808.png');
-	background-size:315px 205px;
-        height:205px;
-	width:315px;
+	background-color:rgb('255,255,255');
+	background-size:5px 5px;
+        height:5px;
+	width:5px;
 	top:500px;
 	animation:lit 2.5s infinite ;
         -webkit-animation: lit 2.5s infinite;/* Safari 4.0 - 8.0 */
@@ -139,10 +139,10 @@ position:absolute;
 
 .plane5{
 	position:relative;
-	background-image:url('https://i.pinimg.com/originals/da/dc/6c/dadc6c53be020be67fe094bed3f9223d.png');
-	background-size:515px 405px;
-        height:405px;
-	width:515px;
+	background-color:rgb('255,255,255');
+	background-size:5px 5px;
+        height:5px;
+	width:5px;
 	top:700px;
 	animation:money 3s infinite ;
         -webkit-animation: money 3s infinite;/* Safari 4.0 - 8.0 */
