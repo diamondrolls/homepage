@@ -63,10 +63,10 @@ position:absolute;
 	width:75px;
 	left:700px;
 	top:600px;}
-100% { background-size:775px 575px;
+100% { background-size:575px 375px;
         height:575px;
 	width:775px;
-	left:100px;
+	left:50px;
 	top:100px;}
 }
 
@@ -76,10 +76,10 @@ position:absolute;
 	width:75px;
 	left:700px;
 	top:600px;}
-100% { background-size:775px 575px;
-        height:575px;
-	width:775px;
-	left:100px;
+100% { background-size:575px 375px;
+        height:375px;
+	width:575px;
+	left:50px;
 	top:100px;}
 }
 
