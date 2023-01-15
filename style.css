@@ -8,8 +8,8 @@
 }
 
 
-	.plain { background-image:url("https://www.google.com/search?rlz=1CDGOYI_enUS1034US1034&hl=en-US&sxsrf=AJOqlzW3pzTFiwouvYnSgn4IoGujBMIp7A:1673763306615&q=png+lightning+gif&tbm=isch&sa=X&ved=2ahUKEwjFt9Ca9sj8AhUmUjABHUWTDuIQ0pQJegQIFxAB&biw=390&bih=669&dpr=3#imgrc=ZyIEcSIr32OfGM");
-            position:relative;
+	.plain { background-image:url(" https://media.tenor.com/qe0yvYn14jUAAAAM/loop-hyper.gif");
+            position:absolute;
       z-index:500;
 	background-size:100% 100%;
         height: 100%;
