@@ -187,7 +187,7 @@ background-image:url('https://i.pinimg.com/originals/32/e3/b5/32e3b500464be68258
 	padding-top:50px;
 } 
 
-html {  background-image:url(' https://raw.githubusercontent.com/diamondrolls/homepage/master/images/14D73D5C-795F-41DF-A505-6F36CBAB36E8.jpeg');
+html {
 	height:1200px;
 		width:100%;
 	overflow:scroll;
@@ -370,7 +370,7 @@ Position:relative;
 }
 
 body{
-	background-image:url(' https://raw.githubusercontent.com/diamondrolls/homepage/master/images/030EF6A9-9AA2-4015-ABF3-84927C38DFDA.jpeg');
+	background-image:url('https://raw.githubusercontent.com/diamondrolls/homepage/master/images/14D73D5C-795F-41DF-A505-6F36CBAB36E8.jpeg');
 	background-size:100% 1200px;
         overflow:hidden;   
 	 width:100%;
