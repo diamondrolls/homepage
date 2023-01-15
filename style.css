@@ -7,42 +7,49 @@
 	z-index:3;
 }
 
-
-	.plain {	
-background-image:url(' https://raw.githubusercontent.com/diamondrolls/images/main/B5F60EAD-E37B-4236-A2F1-6241EE051639.png');
-            position:absolute;
-        background-repeat:no-repeat;
-      z-index:500;
-	background-size:100% 100%;
-        height: 1000px;
-	width: 100%;
-
-            }
 .plane1{
-background-color:rgb(0,0,0);
+background-image:url("");
     border-style:inset;
-     border-color:rgb(0,255,255);
+    
 position:absolute;
       z-index:509;
-	background-size:150px 25px;
-        height:25px;
-	width:150px;
-	left:700px;
-	top:600px;
+	background-size:700px 500px;
+        height:500px;
+	width:700px;
+	left:100px;
+	top:200px;
 	animation: kitty 5s infinite alternate;
         -webkit-animation: kitty 5s infinite alternate;
 } 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
- 0% { transform:rotateX(0deg);}
-100% { transform:rotateX(360deg);}
+ 0% { top:200px;
+       left:100px;
+       background-size:700px 500px;
+        height:500px;
+	width:700px;
+       }
+100% { top:700px
+        left:700px;
+           background-size:75px 25px;
+        height:25px;
+	width:75px;
+          }
 }
 
-@keyframes  kitty{
-0% { transform:rotateX(0deg);}
-100% { transform:rotateX(360deg);}
-}
-
+@keyframe top:200px;
+       left:100px;
+       background-size:700px 500px;
+        height:500px;
+	width:700px;
+       }
+100% { top:700px
+        left:700px;
+           background-size:75px 25px;
+        height:25px;
+	width:75px;
+          }
+        }
 	  
 html {
 	height:1200px;
