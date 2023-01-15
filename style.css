@@ -19,120 +19,28 @@ background-image:url(' https://raw.githubusercontent.com/diamondrolls/images/mai
 
             }
 .plane1{
-background-image:url('https://raw.githubusercontent.com/diamondrolls/homepage/master/images/BE91112E-51DA-42F5-901F-7B24B8A54C08.png');
+background-color:rgb(0,0,0);
+    border-style:inset;
+     border-color:rgb(0,255,255);
 position:absolute;
       z-index:509;
-	background-size:75px 25px;
+	background-size:150px 25px;
         height:25px;
-	width:75px;
+	width:150px;
 	left:700px;
 	top:600px;
-	animation: kitty 15s infinite alternate;
-        -webkit-animation: kitty 15s infinite alternate;
+	animation: kitty 5s infinite alternate;
+        -webkit-animation: kitty 5s infinite alternate;
 } 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
- 0% { background-size:75px 25px;
-        height:25px;
-	width:75px;
-	left:700px;
-	top:600px;}
-100% { background-size:575px 375px;
-        height:575px;
-	width:775px;
-	left:50px;
-	top:100px;}
+ 0% { transform:rotateX(0deg);}
+100% { transform:rotateX(360deg);}
 }
 
 @keyframes  kitty{
-0% { background-size:75px 25px;
-        height:25px;
-	width:75px;
-	left:700px;
-	top:600px;}
-100% { background-size:575px 375px;
-        height:375px;
-	width:575px;
-	left:50px;
-	top:100px;}
-}
-
-.plane2{
-	
-	position:relative;
-	background-image:url("https://raw.githubusercontent.com/diamondrolls/homepage/master/images/21223E2D-11A2-4CBC-A013-87E64D948FB9.webp");
-	background-size:75px 75px;
-        height:90px;
-	width:90px;
-	top:200px;
-	animation:money 3s infinite ;
-        -webkit-animation: money 3s infinite;/* Safari 4.0 - 8.0 */
-}
-
-
-
-
-.plane3{
-	
-	position:relative;
-
-	background-image:url("https://raw.githubusercontent.com/diamondrolls/homepage/master/images/21223E2D-11A2-4CBC-A013-87E64D948FB9.webp");
-
-	background-size:75px 75px;
-        height: 35px;
-	width:35px;
-	top:200px;
-	top:450px;
-	animation:money 12s infinite ;
-        -webkit-animation: money 12s infinite;/* Safari 4.0 - 8.0 */
-}
-
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes money{
- 0% { left:-1200px;
-      opacity:.5;}
-	100% { left:2500px;
-               opacity:1;}
-  
-}
-@keyframes  money{
-      0% { left:-1200px;
-      opacity:.5;}
-	100% { left:2500px;
-               opacity:1;}
-
-}
-
-
-.plane4{
-	position:relative;
-
-	background-image:url("https://raw.githubusercontent.com/diamondrolls/homepage/master/images/21223E2D-11A2-4CBC-A013-87E64D948FB9.webp");
-
-	background-size:75px 75px;
-        height:75px;
-	width:75px;
-	top:200px;
-	top:500px;
-	animation:money 20s infinite ;
-        -webkit-animation: money 20s infinite;/* Safari 4.0 - 8.0 */
-}
-
-
-
-.plane5{
-	position:relative;
-
-	background-image:url("https://raw.githubusercontent.com/diamondrolls/homepage/master/images/21223E2D-11A2-4CBC-A013-87E64D948FB9.webp");
-
-	background-size:75px 75px;
-        height:15px;
-	width:15px;
-	top:200px;
-	top:700px;
-	animation:money 13s infinite ;
-        -webkit-animation: money 13s infinite;/* Safari 4.0 - 8.0 */
+0% { transform:rotateX(0deg);}
+100% { transform:rotateX(360deg);}
 }
 
 	  
