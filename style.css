@@ -47,9 +47,11 @@ top:45%;
 .plane1{
 background-image:url(' https://raw.githubusercontent.com/diamondrolls/play/master/images/B0D14D54-0145-481C-BDD9-E92253BBF81E.png');
 position:absolute;
-	background-size:175px 75px;
-        height:75px;
-	width:175px;
+      z-index:709;
+	background-size:775px 775px;
+        height:775px;
+	width:775px;
+	left:100px;
 	top:300px;
 	animation: kitty 5s infinite alternate;
         -webkit-animation: kitty 5s infinite alternate;
