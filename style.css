@@ -43,6 +43,21 @@ width:900px;
 z-index:79;
 top:45%;
 }
+
+.plane1{
+background-image:url(' https://github.com/diamondrolls/play/blob/fcfb98dccd8e7df311208c9f082be1302c36f9a9/images/830C3E8E-D029-4639-B49E-2B3BB8C630D7.jpeg');
+position:relative;
+	background-size:175px 75px;
+        height:75px;
+	width:175px;
+	top:200px;
+	animation:lit 3s infinite ;
+        -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
+}
+
+
+}
+
 .plane2{
 	
 	position:relative;
