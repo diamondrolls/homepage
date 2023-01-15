@@ -48,7 +48,7 @@ top:45%;
 background-image:url('https://raw.githubusercontent.com/diamondrolls/homepage/master/images/BE91112E-51DA-42F5-901F-7B24B8A54C08.png');
 position:absolute;
       z-index:509;
-	background-size:375px 175px;
+	background-size:75px 25px;
         height:25px;
 	width:75px;
 	left:700px;
@@ -58,7 +58,7 @@ position:absolute;
 } 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
- 0% { background-size:375px 175px;
+ 0% { background-size:75px 25px;
         height:25px;
 	width:75px;
 	left:700px;
@@ -71,7 +71,7 @@ position:absolute;
 }
 
 @keyframes  kitty{
-0% { background-size:375px 175px;
+0% { background-size:75px 25px;
         height:25px;
 	width:75px;
 	left:700px;
