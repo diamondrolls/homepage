@@ -11,9 +11,10 @@
 	.plain {	
 background-image:url(' https://raw.githubusercontent.com/diamondrolls/images/main/B5F60EAD-E37B-4236-A2F1-6241EE051639.png');
             position:absolute;
+        background-repeat:no-repeat;
       z-index:500;
 	background-size:100% 100%;
-        height: 100%;
+        height: 1000px;
 	width: 100%;
 
             }
