@@ -87,9 +87,9 @@ position:absolute;
 	
 	position:relative;
 	background-color:rgb('255,255,255');
-	background-size:5px 5px;
-        height:5px;
-	width:5px;
+	background-size:75px 75px;
+        height:75px;
+	width:75px;
 	top:200px;
 	animation:lit 3s infinite ;
         -webkit-animation: lit 3s infinite;/* Safari 4.0 - 8.0 */
@@ -102,9 +102,10 @@ position:absolute;
 	
 	position:relative;
 	background-color:rgb('255,255,255');
-	background-size:5px 5px;
-        height:5px;
-	width:5px;
+	background-size:75px 75px;
+        height:75px;
+	width:75px;
+	top:200px;
 	top:450px;
 	animation:money 2s infinite ;
         -webkit-animation: money 2s infinite;/* Safari 4.0 - 8.0 */
@@ -127,9 +128,10 @@ position:absolute;
 .plane4{
 	position:relative;
 	background-color:rgb('255,255,255');
-	background-size:5px 5px;
-        height:5px;
-	width:5px;
+	background-size:75px 75px;
+        height:75px;
+	width:75px;
+	top:200px;
 	top:500px;
 	animation:lit 2.5s infinite ;
         -webkit-animation: lit 2.5s infinite;/* Safari 4.0 - 8.0 */
@@ -140,9 +142,10 @@ position:absolute;
 .plane5{
 	position:relative;
 	background-color:rgb('255,255,255');
-	background-size:5px 5px;
-        height:5px;
-	width:5px;
+	background-size:75px 75px;
+        height:75px;
+	width:75px;
+	top:200px;
 	top:700px;
 	animation:money 3s infinite ;
         -webkit-animation: money 3s infinite;/* Safari 4.0 - 8.0 */
