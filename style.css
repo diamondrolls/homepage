@@ -17,37 +17,29 @@ position:absolute;
 	width:700px;
 	left:100px;
 	top:200px;
-	animation: kitty 5s infinite alternate;
-        -webkit-animation: kitty 5s infinite alternate;
+	animation: kitty .1s infinite alternate;
+        -webkit-animation: kitty .1s infinite alternate;
 } 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
- 0% { top:200px;
-       left:100px;
-       background-size:700px 500px;
-        height:500px;
-	width:700px;
+ 0% { 
+       left:1000px;
+       
        }
-100% { top:700px;
-        left:700px;
-           background-size:75px 25px;
-        height:25px;
-	width:75px;
+100% { 
+        left:100px;
+           
           }
 }
 
 @keyframes kitty{ 
-0%  { top:200px;
-       left:100px;
-       background-size:700px 500px;
-        height:500px;
-	width:700px;
+0%  { 
+       left:1000px;
+       
        }
-100% { top:700px;
-        left:700px;
-           background-size:75px 25px;
-        height:25px;
-	width:75px;
+100% { 
+        left:100px;
+           
           }
         }
 	  
