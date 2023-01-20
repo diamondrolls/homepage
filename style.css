@@ -1,5 +1,6 @@
 
 .planeholder{
+        z-index:-200px;
 	position:absolute;
 	 height:700px;
 	width:800px;
@@ -9,14 +10,15 @@
 }
 
     .twod{
+      top:200px;
+      left:250px;
    background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
     position:absolute;
 	background-size:100px 200px;
         height:200px;
 	width:100px;
 	    z-index:200px;
-	    float:left;
-	    transform: translateZ(200px);
+	    transform: translateZ(-200px);
      }
 .mouth{
 	border-color:rgb(255,255,255);
@@ -45,9 +47,10 @@
 background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/5A3397CE-4193-4B6B-9A56-897543975D23.png");    
 position:relative;
 	background-size:700px 500px;
-        height:500px;
-	width:700px;
+        height:300px;
+	width:500px;
 	top:200px;
+        transform: translateZ(-200px);
 	
 } 
 /* Safari 4.0 - 8.0 */
