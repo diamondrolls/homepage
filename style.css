@@ -48,6 +48,9 @@
         left:400px; 
 	 z-index:200px;
 	       transform: translateZ(235px);
+       animation: movements 15s infinite alternate;
+        -webkit-animation: movements  15s infinite alternate;
+
 }
 
 /* Safari 4.0 - 8.0 */
