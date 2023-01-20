@@ -35,6 +35,7 @@
       padding-top:75px;
       background-image:url(" https://raw.githubusercontent.com/diamondrolls/images/main/E9AC7D7F-1545-446B-83D9-61F6574D98D8.png");    
      position:absolute;
+      background-repeat:no-repeat;
 	background-size:100px 200px;
         height:200px;
 	width:100px;
