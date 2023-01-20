@@ -1,12 +1,9 @@
 
 .planeholder{
-        width:99.9%;
-	height:700px;
+        
 	position:relative;
-	overflow:hidden;
 	 height:700px;
 	width:800px;
-	left:100px;
 	top:100px;
 	animation: kitty 5s infinite alternate;
         -webkit-animation: kitty 5s infinite alternate;
@@ -15,11 +12,10 @@
     .twod{
    background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
     position:relative;
-	background-size:700px 500px;
-        height:500px;
-	width:700px;
-	left:100px;
-	top:100px;
+	background-size:100px 200px;
+        height:200px;
+	width:100px;
+	    top:100px;
 	    z-index:200px;
      }
    
@@ -29,8 +25,7 @@
 	background-size:100px 200px;
         height:200px;
 	width:100px;
-	left:100px;
-	top:10px;
+	top:100px;
 	 z-index:200px;
 }
 .plane1{
@@ -39,7 +34,6 @@ position:relative;
 	background-size:700px 500px;
         height:500px;
 	width:700px;
-	left:100px;
 	top:200px;
 	
 } 
