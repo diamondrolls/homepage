@@ -8,7 +8,7 @@
 	animation: kitty 5s infinite alternate;
         -webkit-animation: kitty 5s infinite alternate;
 }
-.photoholder{
+.aiholder{
 position:absolute;
 	 height:250px;
 	width:800px;
