@@ -4,41 +4,64 @@
 	height:700px;
 	position:relative;
 	overflow:hidden;
-	z-index:3;
+	 height:700px;
+	width:800px;
+	left:100px;
+	top:100px;
+	animation: kitty 5s infinite alternate;
+        -webkit-animation: kitty 5s infinite alternate;
 }
 
+    .twod{
+   background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
+    position:relative;
+	background-size:700px 500px;
+        height:500px;
+	width:700px;
+	left:100px;
+	top:100px;
+	    z-index:200px;
+     }
+   
+       .lilfacebook{
+      background-image:url(" https://raw.githubusercontent.com/diamondrolls/images/main/E9AC7D7F-1545-446B-83D9-61F6574D98D8.png");    
+     position:relative;
+	background-size:100px 200px;
+        height:200px;
+	width:100px;
+	left:100px;
+	top:10px;
+	 z-index:200px;
+}
 .plane1{
-background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/5A3397CE-4193-4B6B-9A56-897543975D23.png");
-    
-position:absolute;
-      z-index:509;
+background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/5A3397CE-4193-4B6B-9A56-897543975D23.png");    
+position:relative;
 	background-size:700px 500px;
         height:500px;
 	width:700px;
 	left:100px;
 	top:200px;
-	animation: kitty .1s infinite alternate;
-        -webkit-animation: kitty .1s infinite alternate;
+	
 } 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
  0% { 
-       left:1000px;
+       top:500px;
        
        }
 100% { 
-        left:100px;
+        top:700px;
            
           }
 }
 
 @keyframes kitty{ 
-0%  { 
-       left:1000px;
+ 0% { 
+       top:500px;
        
        }
 100% { 
-        left:100px;
+        top:700px;
            
           }
         }
