@@ -1,19 +1,11 @@
 
 .planeholder{
-        transform: translateZ(200px);
 	position:absolute;
 	 height:700px;
 	width:800px;
 	top:100px;
 	animation: kitty 5s infinite alternate;
         -webkit-animation: kitty 5s infinite alternate;
-}
-.aiholder{
-position:relative;
-	 height:250px;
-	width:800px;
-	top:100px;
-	border-style:inset;
 }
 
     .twod{
@@ -22,9 +14,9 @@ position:relative;
 	background-size:100px 200px;
         height:200px;
 	width:100px;
-	    top:100px;
 	    z-index:200px;
 	    float:left;
+	    transform: translateZ(200px);
      }
    
        .lilfacebook{
