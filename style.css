@@ -10,7 +10,7 @@
 }
 
     .twod{
-      top:200px;
+      top:100px;
       left:250px;
    background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
     position:absolute;
@@ -48,7 +48,7 @@ background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main
 position:relative;
 	background-size:700px 500px;
         height:300px;
-	width:500px;
+	width:600px;
 	top:200px;
         transform: translateZ(-240px);
         left:150px;
