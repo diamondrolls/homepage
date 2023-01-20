@@ -53,7 +53,7 @@
 /*Safari 4.0 - 8.0 */
 @-webkit-keyframes war{
  0% { 
-       0% { transform:rotateX(0deg);
+       transform:rotateX(0deg);
        }
 
 100% { 
