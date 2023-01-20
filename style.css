@@ -65,7 +65,63 @@ position:relative;
            
           }
         }
-	  
+	.ufo {
+    position:relative;
+    top:500px;
+    width:15px;
+    left:200px;
+border-radius:50%;
+    background-color:rgba(255,255,255,.5);
+    height:15px;
+    overflow:hidden;
+    z-index:99;
+    animation:stars 7s infinite alternate;
+       -webkit-animation: stars 7s infinite alternate;/* Safari 4.0 - 8.0 */
+}
+     
+.ufo2 {
+    position:relative;
+    left:700px;
+    top:700px;
+    width:15px;
+border-radius:50%;
+    background-color:rgba(255,255,255,.5);
+    height:15px;
+    overflow:hidden;
+    z-index:99;
+    animation:stars2 5s infinite alternate;
+       -webkit-animation: stars2 5s infinite alternate;/* Safari 4.0 - 8.0 */
+}
+
+
+.ufo3 {
+    position:relative;
+    left:200px;
+    top:200px;
+    width:15px;
+    border-radius:50%;
+    background-color:rgba(255,255,255,.5);	
+    height:15px;
+    overflow:hidden;
+    z-index:99;
+    animation:stars 20s infinite alternate;
+       -webkit-animation: stars 20s infinite alternate;/* Safari 4.0 - 8.0 */
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes stars{
+ 0% { left:0px;
+       }
+100% { left:900px;}
+  
+}
+		  
+@keyframes  stars{
+0% { left:0px;
+       }
+100% { left:900px;}
+  
+}  
+
 html {
 	height:1200px;
 		width:100%;
