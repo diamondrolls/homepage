@@ -11,7 +11,7 @@
 }
 
     .twod{
-      top:70px;
+      top:100px;
       left:250px;
    background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
     position:absolute;
@@ -35,7 +35,7 @@
 
 
 .lilfacebook{
-      padding-top:75px;
+      padding-top:140px;
       background-image:url(" https://raw.githubusercontent.com/diamondrolls/images/main/E9AC7D7F-1545-446B-83D9-61F6574D98D8.png");    
      position:absolute;
       background-repeat:no-repeat;
