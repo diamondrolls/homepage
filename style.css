@@ -50,7 +50,8 @@ position:relative;
         height:300px;
 	width:500px;
 	top:200px;
-        transform: translateZ(-200px);
+        transform: translateZ(-240px);
+        left:150px;
 	
 } 
 /* Safari 4.0 - 8.0 */
