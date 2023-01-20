@@ -2,15 +2,15 @@
 .planeholder{
         z-index:-200px;
 	position:absolute;
-	 height:700px;
-	width:800px;
+	 height:800px;
+	width:100%;
 	top:100px;
 	animation: kitty 5s infinite alternate;
         -webkit-animation: kitty 5s infinite alternate;
 }
 
     .twod{
-      top:100px;
+      top:50px;
       left:250px;
    background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
     position:absolute;
@@ -49,7 +49,7 @@ position:relative;
 	background-size:700px 500px;
         height:300px;
 	width:600px;
-	top:200px;
+	top:150px;
         transform: translateZ(-240px);
         left:150px;
 	
