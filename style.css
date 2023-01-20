@@ -31,6 +31,8 @@
         left:40px;
 	transform: translateZ(235px);
 	position:relative;
+       animation: moth 5s infinite alternate;
+        -webkit-animation: moth 5s infinite alternate;
 }
 
 
@@ -82,7 +84,7 @@ position:relative;
         }
 
 * Safari 4.0 - 8.0 */
-@-webkit-keyframes mouth{
+@-webkit-keyframes moth{
  0% { 
        height:2px;
 	width:50px;
@@ -95,7 +97,7 @@ position:relative;
           }
 }
 
-@keyframes mouth{ 
+@keyframes moth{ 
  0% { 
        height:2px;
 	width:50px;
