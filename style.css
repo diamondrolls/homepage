@@ -9,12 +9,11 @@
         -webkit-animation: kitty 5s infinite alternate;
 }
 .aiholder{
-position:absolute;
+position:relative;
 	 height:250px;
 	width:800px;
 	top:100px;
-	animation: kitty 5s infinite alternate;
-        -webkit-animation: kitty 5s infinite alternate;
+	border-style:inset;
 }
 
     .twod{
