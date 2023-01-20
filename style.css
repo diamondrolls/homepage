@@ -18,7 +18,7 @@ position:relative;
 
     .twod{
    background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
-    position:relative;
+    position:absolute;
 	background-size:100px 200px;
         height:200px;
 	width:100px;
@@ -29,7 +29,7 @@ position:relative;
    
        .lilfacebook{
       background-image:url(" https://raw.githubusercontent.com/diamondrolls/images/main/E9AC7D7F-1545-446B-83D9-61F6574D98D8.png");    
-     position:relative;
+     position:absolute;
 	background-size:100px 200px;
         height:200px;
 	width:100px;
