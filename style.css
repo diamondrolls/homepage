@@ -31,8 +31,8 @@
         left:40px;
 	transform: translateZ(235px);
 	position:relative;
-       animation: moth 5s infinite alternate;
-        -webkit-animation: moth 5s infinite alternate;
+       animation: moth 1s infinite alternate;
+        -webkit-animation: moth 1s infinite alternate;
 }
 
 
