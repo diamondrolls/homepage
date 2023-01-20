@@ -31,9 +31,7 @@
         left:40px;
 	transform: translateZ(235px);
 	position:relative;
-       animation: moth .2s infinite alternate;
-        -webkit-animation: moth .2s infinite alternate;
-}
+      }
 
 
 .lilfacebook{
