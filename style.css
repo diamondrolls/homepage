@@ -1,7 +1,7 @@
 
 .planeholder{
         
-	position:relative;
+	position:absolute;
 	 height:700px;
 	width:800px;
 	top:100px;
