@@ -18,8 +18,18 @@
 	    float:left;
 	    transform: translateZ(200px);
      }
-   
-       .lilfacebook{
+.mouth{
+	border-color:rgb(255,255,255);
+	border-style:outset;
+        height:2px;
+	width:50px;
+	top:20px;
+	transform: translateZ(235px);
+	position:relative;
+}
+
+
+.lilfacebook{
       background-image:url(" https://raw.githubusercontent.com/diamondrolls/images/main/E9AC7D7F-1545-446B-83D9-61F6574D98D8.png");    
      position:absolute;
 	background-size:100px 200px;
