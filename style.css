@@ -8,6 +8,14 @@
 	animation: kitty 5s infinite alternate;
         -webkit-animation: kitty 5s infinite alternate;
 }
+.photoholder{
+position:absolute;
+	 height:250px;
+	width:800px;
+	top:100px;
+	animation: kitty 5s infinite alternate;
+        -webkit-animation: kitty 5s infinite alternate;
+}
 
     .twod{
    background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
@@ -17,6 +25,7 @@
 	width:100px;
 	    top:100px;
 	    z-index:200px;
+	    float:left;
      }
    
        .lilfacebook{
@@ -26,6 +35,7 @@
         height:200px;
 	width:100px;
 	top:100px;
+	       float:left;
 	 z-index:200px;
 }
 .plane1{
