@@ -33,6 +33,44 @@
 	position:relative;
       }
 
+.words {
+       position:absolute;
+        background-color:rgba(0,0,0,.6);
+       height:200px;
+       top:500px;
+         width:500px;
+        border-style:inset;
+        border-color:rgb(0,255,255);
+        border-radius:45px;
+       animation: war 5s infinite alternate;
+        -webkit-animation: war  5s infinite alternate;
+        z-index:210px;
+        transform: translateZ(335px);
+       
+
+     }
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes war{
+ 0% { 
+       0% { transform:rotateX(0deg);
+       }
+
+100% { 
+        transform:rotateX(360deg);
+          
+          }
+
+keyframes war{ 
+    0% { transform:rotateX(0deg);
+       }
+
+100% { 
+        transform:rotateX(360deg);
+          
+          }
+        
+}
 
 .lilfacebook{
       padding-top:180px;
