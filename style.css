@@ -99,7 +99,7 @@
        left:555px;
        }
 17% { 
-        top:100px;
+        top:10px;
          left:444px;  
           }
 
@@ -173,10 +173,21 @@
          left:514px;  
           }
 
+76% { 
+       top:15px;
+       left:515px;
+       }
+
 80% { 
        top:275px;
        left:515px;
        }
+
+83% { 
+       top:10px;
+       left:10px;
+       }
+
 85% { 
         top:975px;
          left:415px;  
@@ -214,7 +225,7 @@
        left:555px;
        }
 17% { 
-        top:100px;
+        top:10px;
          left:444px;  
           }
 
@@ -283,15 +294,28 @@
        top:555px;
        left:510px;
        }
+
+
 75% { 
         top:808px;
          left:514px;  
           }
 
+76% { 
+       top:15px;
+       left:515px;
+       }
+
 80% { 
        top:275px;
        left:515px;
        }
+
+83% { 
+       top:10px;
+       left:10px;
+       }
+
 85% { 
         top:975px;
          left:415px;  
