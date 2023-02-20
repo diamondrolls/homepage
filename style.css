@@ -62,19 +62,19 @@
 }
 
 .lilfacebook{
-      padding-top:180px;
-   background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/52E55257-1663-463B-BBAB-2FD33441C052.png");    
+
+   background-color:rgba(0,255,255,.5);    
      position:absolute;
-      background-repeat:no-repeat;
-	background-size:200px 500px;
-        height:500px;
+      boarder-style:solid;
+	border-radius:50px;
+        height:200;
 	width:200px;
 	top:200px;
         left:400px; 
 	 z-index:200px;
 	       transform: translateZ(235px);
-       animation: movements 15s infinite alternate;
-        -webkit-animation: movements  15s infinite alternate;
+       animation: movements 110s infinite alternate;
+        -webkit-animation: movements  110s infinite alternate;
 
 }
 
@@ -328,7 +328,7 @@ Position:relative;
 }
 
 body{   
-	background-image:url(" https://images.radio.com/aiu-media/GettyImages1195199589-6a30dfb5-3ac8-4f48-957d-b2f95225b978.jpg");
+	background-image:url(" https://raw.githubusercontent.com/diamondrolls/images/main/0884ED3C-776F-4D05-9431-9D05B5FB51A4.jpeg");
 	background-size:100% 1000px;
         overflow:hidden;   
 	 width:100%;
