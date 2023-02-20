@@ -73,8 +73,8 @@
         left:400px; 
 	 z-index:200px;
 	       transform: translateZ(235px);
-       animation: movements 110s infinite alternate;
-        -webkit-animation: movements  110s infinite alternate;
+       animation: movements 200s infinite alternate;
+        -webkit-animation: movements  200s infinite alternate;
 
 }
 
@@ -84,31 +84,227 @@
        top:200px;
        left:400px;
        }
-50% { 
+5% { 
+        top:600px;
+         left:666px;  
+          }
+
+10% { 
+        top:400px;
+         left:333px;  
+          }
+
+13% { 
+       top:700px;
+       left:555px;
+       }
+17% { 
         top:100px;
-         left:600px;  
+         left:444px;  
+          }
+
+20% { 
+        top:600px;
+         left:111px;  
+          }
+
+24% { 
+       top:300px;
+       left:77px;
+       }
+27% { 
+        top:700px;
+         left:750px;  
+          }
+
+30% { 
+        top:900px;
+         left:570px;  
+          }
+
+33% { 
+       top:200px;
+       left:760px;
+       }
+37% { 
+        top:500px;
+         left:678px;  
+          }
+
+40% { 
+        top:355px;
+         left:479px;  
+          }
+
+45% { 
+       top:275px;
+       left:150px;
+       }
+50% { 
+        top:888px;
+         left:350px;  
+          }
+
+55% { 
+        top:666px;
+         left:666px;  
+          }
+
+57% { 
+       top:222px;
+       left:540px;
+       }
+60% { 
+        top:777px;
+         left:870px;  
+          }
+
+65% { 
+        top:400px;
+         left:150px;  
+          }
+
+70% { 
+       top:555px;
+       left:510px;
+       }
+75% { 
+        top:808px;
+         left:514px;  
+          }
+
+80% { 
+       top:275px;
+       left:515px;
+       }
+85% { 
+        top:975px;
+         left:415px;  
+          }
+
+90% { 
+        top:444px;
+         left:214px;  
           }
 
 100% { 
-        top:400px;
-         left:100px;  
+        top:674px;
+         left:790px;  
           }
 
 }
 
 @keyframes movements{ 
-    0% { top:200px;
+     0% { 
+       top:200px;
        left:400px;
        }
-50% { 
+5% { 
+        top:600px;
+         left:666px;  
+          }
+
+10% { 
+        top:400px;
+         left:333px;  
+          }
+
+13% { 
+       top:700px;
+       left:555px;
+       }
+17% { 
         top:100px;
-         left:600px;  
+         left:444px;  
+          }
+
+20% { 
+        top:600px;
+         left:111px;  
+          }
+
+24% { 
+       top:300px;
+       left:77px;
+       }
+27% { 
+        top:700px;
+         left:750px;  
+          }
+
+30% { 
+        top:900px;
+         left:570px;  
+          }
+
+33% { 
+       top:200px;
+       left:760px;
+       }
+37% { 
+        top:500px;
+         left:678px;  
+          }
+
+40% { 
+        top:355px;
+         left:479px;  
+          }
+
+45% { 
+       top:275px;
+       left:150px;
+       }
+50% { 
+        top:888px;
+         left:350px;  
+          }
+
+55% { 
+        top:666px;
+         left:666px;  
+          }
+
+57% { 
+       top:222px;
+       left:540px;
+       }
+60% { 
+        top:777px;
+         left:870px;  
+          }
+
+65% { 
+        top:400px;
+         left:150px;  
+          }
+
+70% { 
+       top:555px;
+       left:510px;
+       }
+75% { 
+        top:808px;
+         left:514px;  
+          }
+
+80% { 
+       top:275px;
+       left:515px;
+       }
+85% { 
+        top:975px;
+         left:415px;  
+          }
+
+90% { 
+        top:444px;
+         left:214px;  
           }
 
 100% { 
-        top:400px;
-         left:100px;  
-          
+        top:674px;
+         left:790px;  
           }
         }
 
