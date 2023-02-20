@@ -73,8 +73,8 @@
         left:400px; 
 	 z-index:200px;
 	       transform: translateZ(235px);
-       animation: movements 200s infinite alternate;
-        -webkit-animation: movements  200s infinite alternate;
+       animation: movements 7s infinite alternate;
+        -webkit-animation: movements 7s infinite alternate;
 
 }
 
