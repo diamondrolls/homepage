@@ -118,11 +118,11 @@ border-radius:50%;
         height:400px;
 	width:400px;
 	top:200px;
-
+        left:300px;
 	 z-index:200px;
 	       transform: translateZ(235px);
-       animation: kitty 7s infinite alternate;
-        -webkit-animation: kitty 7s infinite alternate;
+       animation: kitty 5s infinite;
+        -webkit-animation: kitty 5s infinite;
 
 }
 
