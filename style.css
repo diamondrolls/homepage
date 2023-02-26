@@ -63,275 +63,26 @@
 
 .lilfacebook{
 
-   background-color:rgba(0,255,255,.5);    
+   background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/EE761A8C-86EC-4813-8BDC-0590F0AE51E2.jpeg");    
      position:absolute;
       boarder-style:solid;
 	border-radius:50px;
-        height:200px;
-	width:200px;
+        height:700px;
+	width:700px;
 	top:200px;
-        left:400px; 
+
 	 z-index:200px;
 	       transform: translateZ(235px);
-       animation: movements 7s infinite alternate;
-        -webkit-animation: movements 7s infinite alternate;
+       animation: kitty 7s infinite alternate;
+        -webkit-animation: kitty 7s infinite alternate;
 
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes movements{
- 0% { 
-       top:200px;
-       left:400px;
-       }
-5% { 
-        top:600px;
-         left:666px;  
-          }
-
-10% { 
-        top:400px;
-         left:333px;  
-          }
-
-13% { 
-       top:700px;
-       left:555px;
-       }
-17% { 
-        top:10px;
-         left:444px;  
-          }
-
-20% { 
-        top:600px;
-         left:111px;  
-          }
-
-24% { 
-       top:300px;
-       left:77px;
-       }
-27% { 
-        top:700px;
-         left:750px;  
-          }
-
-30% { 
-        top:900px;
-         left:570px;  
-          }
-
-33% { 
-       top:200px;
-       left:760px;
-       }
-37% { 
-        top:500px;
-         left:678px;  
-          }
-
-40% { 
-        top:355px;
-         left:479px;  
-          }
-
-45% { 
-       top:275px;
-       left:150px;
-       }
-50% { 
-        top:888px;
-         left:350px;  
-          }
-
-55% { 
-        top:666px;
-         left:666px;  
-          }
-
-57% { 
-       top:222px;
-       left:540px;
-       }
-60% { 
-        top:777px;
-         left:870px;  
-          }
-
-65% { 
-        top:400px;
-         left:150px;  
-          }
-
-70% { 
-       top:555px;
-       left:510px;
-       }
-75% { 
-        top:808px;
-         left:514px;  
-          }
-
-76% { 
-       top:15px;
-       left:100%;
-       }
-
-80% { 
-       top:275px;
-       left:515px;
-       }
-
-83% { 
-       top:10px;
-       left:10px;
-       }
-
-85% { 
-        top:975px;
-         left:415px;  
-          }
-
-90% { 
-        top:444px;
-         left:214px;  
-          }
-
-100% { 
-        top:674px;
-         left:790px;  
-          }
-
-}
-
-@keyframes movements{ 
-     0% { 
-       top:200px;
-       left:400px;
-       }
-5% { 
-        top:600px;
-         left:666px;  
-          }
-
-10% { 
-        top:400px;
-         left:333px;  
-          }
-
-13% { 
-       top:700px;
-       left:555px;
-       }
-17% { 
-        top:10px;
-         left:444px;  
-          }
-
-20% { 
-        top:600px;
-         left:111px;  
-          }
-
-24% { 
-       top:300px;
-       left:77px;
-       }
-27% { 
-        top:700px;
-         left:750px;  
-          }
-
-30% { 
-        top:900px;
-         left:570px;  
-          }
-
-33% { 
-       top:200px;
-       left:760px;
-       }
-37% { 
-        top:500px;
-         left:678px;  
-          }
-
-40% { 
-        top:355px;
-         left:479px;  
-          }
-
-45% { 
-       top:275px;
-       left:150px;
-       }
-50% { 
-        top:888px;
-         left:350px;  
-          }
-
-55% { 
-        top:666px;
-         left:666px;  
-          }
-
-57% { 
-       top:222px;
-       left:540px;
-       }
-60% { 
-        top:777px;
-         left:870px;  
-          }
-
-65% { 
-        top:400px;
-         left:150px;  
-          }
-
-70% { 
-       top:555px;
-       left:510px;
-       }
+ 
 
 
-75% { 
-        top:808px;
-         left:514px;  
-          }
 
-76% { 
-       top:15px;
-       left:100%;
-       }
-
-80% { 
-       top:275px;
-       left:515px;
-       }
-
-83% { 
-       top:10px;
-       left:10px;
-       }
-
-85% { 
-        top:975px;
-         left:415px;  
-          }
-
-90% { 
-        top:444px;
-         left:214px;  
-          }
-
-100% { 
-        top:674px;
-         left:790px;  
-          }
-        }
-
+    
 
 .plane1{
 background-image:url("https://raw.githubusercontent.com/diamondrolls/images/main/5A3397CE-4193-4B6B-9A56-897543975D23.png");    
@@ -347,22 +98,22 @@ position:relative;
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes kitty{
  0% { 
-       top:100px;
+       transform:rotateY(0deg);
        
        }
 100% { 
-        top:300px;
+transform:rotateY(360deg);
            
           }
 }
 
 @keyframes kitty{ 
  0% { 
-       top:100px;
+transform:rotateY(0deg);
        
        }
 100% { 
-        top:300px;
+transform:rotateY(360deg);
            
           }
         }
@@ -548,7 +299,7 @@ Position:relative;
 }
 
 body{   
-	background-image:url(" https://raw.githubusercontent.com/diamondrolls/images/main/0884ED3C-776F-4D05-9431-9D05B5FB51A4.jpeg");
+	background-image:url(" https://raw.githubusercontent.com/diamondrolls/images/main/61020F9F-9BD1-46D7-865E-7C7C61454175.jpeg");
 	background-size:100% 100%;
         overflow:hidden;   
 	 width:100%;
